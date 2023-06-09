@@ -1,5 +1,6 @@
 import React from "react";
 import MainImage from "/mainImage.png";
+import Block from "../../assets/block";
 const Hero = () => {
   return (
     // <div>Hero</div>
@@ -8,7 +9,8 @@ const Hero = () => {
         <div>
           <div className="relative">
             <div>
-              <img className="responsive" src="/Rectangle1.png" alt="" />
+              {/* <img className="responsive" src="/Rectangle1.png" alt="" /> */}
+              <Block />
             </div>
             <div className="relativePic">
               <img className="responsive" src={MainImage} alt="" />
@@ -32,11 +34,10 @@ const Hero = () => {
 
         <div>
           <div className="stack shiftTop2 ">
+            {/* <p className="mainText"> </p> */}
             <p className="mainText">Put your money to work.</p>
 
-            <h6 className="smallMainText">
-              Invest wisely Manage risk,Grow wealth.
-            </h6>
+            <h6 className="smallMainText">Invest wisely. Grow wealth.</h6>
             <div className="grid">
               <div className="center">
                 <input className="inputField" placeholder="your name..." />

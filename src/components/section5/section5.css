@@ -1,0 +1,98 @@
+:root {
+  --main-color: #ff4300;
+  --text-color-white: #fff;
+  --small-text-color: #7e91ae;
+  --heading-text-size: 1.2rem;
+  --hero-text-size: 2rem;
+  --head-font-Weight: 200;
+  --stack-gap: 1rem;
+  --margin--top-val: 5rem;
+
+  --small-text-size: 1rem;
+  --small-special-text-color: #0066f4;
+  --main-text-color: #082552;
+
+  --main-text-size: 8rem;
+}
+
+.section5MainBox {
+  background-image: linear-gradient(90deg, #67436f, #a530f2);
+}
+.grad {
+  background: rgb(62, 103, 245);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(62, 103, 245, 1) 0%,
+    rgba(62, 103, 245, 1) 43%,
+    rgba(62, 103, 245, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(62, 103, 245, 1) 0%,
+    rgba(62, 103, 245, 1) 43%,
+    rgba(62, 103, 245, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(62, 103, 245, 1) 0%,
+    rgba(62, 103, 245, 1) 43%,
+    rgba(62, 103, 245, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3e67f5",endColorstr="#3e67f5",GradientType=1);
+}
+
+
+/* .grad2 {
+    background-image: linear-gradient(90deg, #d623fe, #a530f2);
+  } */
+
+#section5Text1 {
+  color: var(--text-color-white);
+  font-size: 3rem;
+  letter-spacing: -2px;
+  max-width: 32rem;
+}
+
+#section5Text2 {
+  color: var(--text-color-white);
+  font-size: 1.2rem;
+  /* letter-spacing: -2px; */
+  max-width: 35rem;
+}
+
+#section5Text3 {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 0.9rem;
+  /* letter-spacing: -2px; */
+  max-width: 35rem;
+}
+
+.gridSection5 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 1rem;
+  /* max-height: 35rem; */
+  /* overflow: hidden; */
+}
+
+.stackSection5 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--stack-gap);
+}
+#Section5BulletPointText{
+    color: var(--text-color-white);
+    font-size: 1.3rem;
+}
+
+.blueBox{
+    position:absolute;
+    top: 278rem;
+    left: 52rem;
+
+}
+
+.saveSvg{
+    width: 40rem;
+    height: 40rem;
+}

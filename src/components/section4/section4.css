@@ -1,0 +1,88 @@
+
+:root {
+    --main-color: #ff4300;
+    --text-color-white: #fff;
+    --small-text-color: #7e91ae;
+    --heading-text-size: 1.2rem;
+    --hero-text-size: 2rem;
+    --head-font-Weight: 200;
+    --stack-gap: 1rem;
+    --margin--top-val: 5rem;
+  
+    --small-text-size: 1rem;
+    --small-special-text-color: #0066f4;
+    --main-text-color: #082552;
+  
+    --main-text-size: 8rem;
+  }
+
+.section4Background {
+  background-image: url("../public/bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* height: 100vh;
+    width: 100vw; */
+  width: 150%;
+  /* height: 100vw; */
+  background-position-x: -30rem;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  /* max-height: 35rem; */
+  /* overflow: hidden; */
+}
+.grid5 {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 1rem;
+  /* max-height: 35rem; */
+  /* overflow: hidden; */
+}
+.muckupContainer {
+  max-height: 30rem;
+}
+
+.muckup {
+  max-height: 50rem;
+  max-width: 100%;
+}
+
+.sectionDiv {
+  background-color: #fcfcfc;
+}
+
+.stack4 {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+}
+
+.stack5 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#demoHeading{
+    font-size: 1.3rem;
+}
+
+#section4MainHeading{
+    font-size: 2.8rem;
+}
+
+#demoParagraph{
+    font-size: 1.2rem;
+    color: #082552;
+    font-weight: 100;
+}
+#strockNumber{
+    color:#0066f4;
+    font-size: large;
+}
+/* #points{
+    fon
+} */
