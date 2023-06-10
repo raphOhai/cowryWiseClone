@@ -4,8 +4,8 @@ import Savings from "../../assets/savings";
 const Section1 = () => {
   return (
     <div
-      style={{ marginTop: "18rem" }}
-      className="grid shiftTop defaultPadding fullHeight "
+      style={{ }}
+      className="grid shiftTop defaultPadding fullHeight shiTopTabAndMobile2 "
     >
       <div className="stack">
         <h1 className="mainText2">

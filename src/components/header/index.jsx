@@ -4,7 +4,7 @@ import DropDownIcon from "../../assets/dropDownIcon";
 
 const Header = () => {
   return (
-    <div className="header defaultPadding">
+    <div className="header defaultPadding ">
       <div className="center">
         <Logo />
         <div className="header-items hideMobileAndTabFlex">
@@ -25,9 +25,9 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="center">
-        <p className="smallSpecialText">login</p>
-        <button className="mainBtn ">sign up for free</button>
+      <div className="center ">
+        <p className="smallSpecialText  hideMobileAndTabFlex">login</p>
+        <button className="mainBtn hideMobileAndTabFlex ">sign up for free</button>
       </div>
   
     </div>

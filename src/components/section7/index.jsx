@@ -2,23 +2,28 @@ import React from "react";
 import "./section7.css";
 const Section7 = () => {
   return (
-    <div className="defaultPadding">
-      <div className="lastCta defaultPadding">
-        <div className="section7Grid">
+    <div className="lastCtaPadding">
+      <div className="lastCta lastCtaPadding">
+        <div className="lastCtaGrid">
           <div>
-            <p id="lastCtaText"  className="mainText widthRestric2">
+            <p id="lastCtaText" className="mainText widthRestri">
               Sign up for free. Start investing today.
             </p>
           </div>
           <div className="flex center">
-            <div className="inputBox">
-              <input type="email" placeholder="email"/>
-              <button className="mainBtn lastCtaBtn">
-                sign up for free
 
+            <div className="inputBox">
+              <input type="email" placeholder="email" />
+              <button className="mainBtn lastCtaBtn hidePhone">
+                sign up for free
               </button>
             </div>
 
+          </div>
+          <div style={{}} className="widthRestric flex alignStart">
+            <button className="mainBtn lastCtaBtn HideDesktopAndTab">
+              sign up for free
+            </button>
           </div>
         </div>
       </div>

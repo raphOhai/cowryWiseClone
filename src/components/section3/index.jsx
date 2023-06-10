@@ -11,7 +11,7 @@ const Section3 = () => {
       </div>
       <div style={{ marginBottom: "3rem" }} id="ScrollDiv" className="example shiftTop ">
         {advert.map((m) => (
-          <div className="advartCards alignStart  flex">
+          <div className="advartCards alignStart  flex track">
             <div className="widthRestrict2 ">
                 <em id="advertCommar"  className="mainText2">
                     "

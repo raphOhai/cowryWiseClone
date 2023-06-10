@@ -3,10 +3,10 @@ import React from "react";
 const Section2 = () => {
   return (
     <>
-      <div style={{marginTop:"-13rem"}} className="niceBacground"></div>
+      <div style={{}} className="niceBacground shiTopTabAndMobile4"></div>
       <div className="defaultPadding">
         <div className="defaultPadding">
-          <div style={{ marginTop: "-24rem" }} className="stack3 center">
+          <div style={{ marginTop: "-29rem" }} className="stack3 center ">
             <p id="sectionNote" className="smallMainText2">
               Stay the course, reap the reward
             </p>

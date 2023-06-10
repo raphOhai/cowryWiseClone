@@ -29,25 +29,15 @@
     gap: 1rem;
   }
 
-.section6Grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-}
 
 
-.section6Grid2 {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 4rem;
-  }
-  
+
 
 .section6Cards {
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 2rem;
-  width: 90%;
+  /* width: 90%; */
   border: 1px solid rgba(8,37,82,.07);
 }
 

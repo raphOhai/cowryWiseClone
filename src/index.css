@@ -1,72 +1,56 @@
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+:root {
+  --main-color: #ff4300;
+  --text-color-white: #fff;
+  --small-text-color: #7e91ae;
+  --heading-text-size: 1.2rem;
+  --hero-text-size: 2rem;
+  --head-font-Weight: 200;
+  --stack-gap: 1rem;
+  --margin--top-val: 5rem;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --small-text-size: 1rem;
+  --small-special-text-color: #0066f4;
+  --main-text-color: #082552;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  --main-text-size: 8rem;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+@font-face {
+  font-family: VeryBold;
+  src: url(../public/BRFirmaCW-Bold.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: LightText;
+  src: url(../public/BRFirmaCW-Light.woff2);
+  font-weight: light;
+}
+@font-face {
+  font-family: mediumText;
+  src: url(../public/BRFirmaCW-Medium.woff2);
+  font-weight: medium;
+}
+@font-face {
+  font-family: RegularText;
+  src: url(../public/BRFirmaCW-Regular.woff2);
+  font-weight: regular;
+}
+@font-face {
+  font-family: SemiBold;
+  src: url(../public/BRFirmaCW-SemiBold.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Book;
+  src: url(../public/CircularXXWeb-Book.woff2);
+  font-weight: small;
+}
+@font-face {
+  font-family: VeryBold;
+  src: url(../public/BRFirmaCW-Bold.woff2);
+  font-weight: bold;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
 * {
   margin: 0;
   padding: 0;
@@ -75,6 +59,14 @@ button:focus-visible {
 /* galexy fold devices (phones, 600px and down*/
 @media only screen and (max-width: 280px) {
   .hideMobileAndTabFlex {
+    display: none;
+  }
+  .relativeBox {
+    position: absolute;
+    top: 38rem;
+    left: -7rem;
+    width: 50vw;
+    margin: 2rem;
     display: none;
   }
 }
@@ -88,6 +80,9 @@ button:focus-visible {
   .shiTopTabAndMobile {
     margin-top: 10rem;
   }
+  .shiTopTabAndMobile2 {
+    margin-top: 25rem;
+  }
   .ShowDeskTop {
     display: none;
   }
@@ -96,7 +91,8 @@ button:focus-visible {
     padding-right: 1rem;
   }
   .HideDesktop {
-    display: block;
+    display: flex;
+    width: 100vw;
   }
   .grid {
     display: grid;
@@ -107,10 +103,26 @@ button:focus-visible {
   }
   .relativePic {
     position: absolute;
-    top: 4rem;
-    left: 5rem;
+    top: 23rem;
+    left: -6rem;
+    margin-left: 4rem;
   }
-
+  .relativeBlock {
+    position: absolute;
+    top: 20rem;
+    left: -5rem;
+    z-index: -1;
+  }
+  .relativeBox {
+    position: absolute;
+    top: 38rem;
+    left: -7rem;
+    width: 50vw;
+    margin: 2rem;
+  }
+  .responsive {
+    width: 89vw;
+  }
   .gridImail1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -132,17 +144,159 @@ button:focus-visible {
     padding-top: rem;
     padding-bottom: 5rem;
   }
-  .grad::before{
+  .section6Grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .grad::before {
     content: "";
     position: absolute;
     right: -10rem;
     top: 0;
     bottom: 0;
-    width:50%;
+    width: 50%;
     background-repeat: no-repeat;
     background-image: none;
-    opacity: .5;
-}
+    opacity: 0.5;
+  }
+  .grad {
+    background-color: rgb(62, 103, 245);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    backdrop-filter: brightness(0.5);
+    background-position-y: bottom;
+    /* height: 100vh; */
+  }
+
+  .section6Grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .mainText {
+    color: #082552;
+    font-family: VeryBold;
+    font-size: 2.4rem;
+    /* font-weight: 700; */
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+    font-weight: 200;
+  }
+  .smallMainText {
+    color: var(--main-text-color);
+    font-family: mediumText;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -3px;
+  }
+  .mainText2 {
+    color: #082552;
+    font-family: VeryBold;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -5px;
+  }
+
+  .smallMainText2 {
+    color: var(--main-text-color);
+    font-family: mediumText;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .shiTopTabAndMobile2 {
+    margin-top: 25rem;
+  }
+  #sectionNote {
+    font-size: 2rem;
+  }
+  #startAmount {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+  #profitAmount {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #6c82a3;
+  }
+  #section4MainHeading {
+    font-size: 2.4rem;
+    text-align: start;
+  }
+
+  #demoParagraph {
+    font-size: 0.9.5rem;
+    color: #082552;
+    font-weight: 100;
+  }
+  #demoHeading {
+    font-size: 1.3rem;
+    text-align: start;
+  }
+  .ctaBtn {
+    align-items: center;
+    justify-content: center;
+  }
+  .rating {
+    letter-spacing: 1px;
+    font-size: 2rem;
+  }
+  .hidePhone {
+    display: none;
+  }
+  .HideDesktopAndTab {
+    display: block;
+  }
+
+  .lastCtaPadding {
+    padding: 1rem 2rem;
+  }
+
+  #lastCtaText {
+    font-size: 1.8rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .inputBox input[type="email"] {
+    background-color: transparent;
+    border: none;
+    color: #fff !important;
+    font-size: 1.4rem;
+    width: 80%;
+    padding: 0.8rem;
+  }
+
+  .lastCtaBtn {
+    background-color: #fff;
+    color: black;
+    padding: 1rem;
+    /* width: 100%; */
+  }
+
+  .advartCards {
+    border: 1px solid #0066f5;
+    padding: 0.5rem;
+    border-radius: 24px;
+
+    height: 200px;
+    min-width: 300px;
+    margin-right: 2rem;
+    padding-left: 2rem;
+
+    padding-bottom: 4rem;
+  }
+  #advertText {
+    font-size: 2.3rem;
+    letter-spacing: -3px;
+    color: var(--small-special-text-color);
+    font-family: SemiBold;
+  }
+  .shiTopTabAndMobile4 {
+    margin-top: -8rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -160,6 +314,9 @@ button:focus-visible {
   .HideDesktop {
     display: block;
   }
+  .HideDesktopAndTab {
+    display: block;
+  }
   .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -175,8 +332,18 @@ button:focus-visible {
   }
   .relativePic {
     position: absolute;
-    top: 4rem;
+    top: 23rem;
     left: 5rem;
+  }
+  .relativeBlock {
+    position: absolute;
+    top: 20rem;
+    left: -2rem;
+  }
+  .relativeBox {
+    position: absolute;
+    top: 43rem;
+    left: 1rem;
   }
   .gridImail1 {
     display: grid;
@@ -199,17 +366,165 @@ button:focus-visible {
     padding-top: rem;
     padding-bottom: 5rem;
   }
-  .grad::before{
+  .section6Grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .grad::before {
     content: "";
     position: absolute;
     right: -10rem;
     top: 0;
     bottom: 0;
-    width:50%;
+    width: 50%;
     background-repeat: no-repeat;
     background-image: none;
-    opacity: .5;
-}
+    opacity: 0.5;
+  }
+  .grad {
+    background-color: rgb(62, 103, 245);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    backdrop-filter: brightness(0.5);
+    background-position-y: bottom;
+    /* height: 100vh; */
+    /* height: 200vh; */
+  }
+
+  .section6Grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .mainText {
+    color: #082552;
+    font-family: VeryBold;
+    font-size: 2.9rem;
+    /* font-weight: 700; */
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+    font-weight: 200;
+  }
+  .smallMainText {
+    color: var(--main-text-color);
+    font-family: mediumText;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: -3px;
+  }
+  .mainText2 {
+    color: #082552;
+    font-family: VeryBold;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -5px;
+  }
+
+  .smallMainText2 {
+    color: var(--main-text-color);
+    font-family: mediumText;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  #sectionNote {
+    font-size: 2rem;
+  }
+  #startAmount {
+    font-size: 5rem;
+    letter-spacing: 3px;
+  }
+
+  #profitAmount {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: #6c82a3;
+  }
+  #section4MainHeading {
+    font-size: 2.8rem;
+  }
+
+  #demoParagraph {
+    font-size: 1.2rem;
+    color: #082552;
+    font-weight: 100;
+  }
+  #section4MainHeading {
+    font-size: 2.8rem;
+    text-align: start;
+  }
+
+  #demoParagraph {
+    font-size: 0.9.5rem;
+    color: #082552;
+    font-weight: 100;
+  }
+  #demoHeading {
+    font-size: 1.3rem;
+    text-align: start;
+  }
+  .ctaBtn {
+    align-items: center;
+    justify-content: center;
+  }
+  .rating {
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+  }
+  .hidePhone {
+    display: none;
+  }
+  .lastCtaPadding {
+    padding: 3rem 3rem;
+  }
+
+  #lastCtaText {
+    font-size: 2.4rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .inputBox input[type="email"] {
+    background-color: transparent;
+    border: none;
+    color: #fff !important;
+    font-size: 1.4rem;
+    width: 80%;
+    padding: 0.8rem;
+  }
+
+  .lastCtaBtn {
+    background-color: #fff;
+    color: black;
+    padding: 1rem;
+    /* width: 100%; */
+  }
+
+  .advartCards {
+    border: 1px solid #0066f5;
+    padding: 0.5rem;
+    border-radius: 24px;
+
+    min-height: 200px;
+    min-width: 480px;
+    margin-right: 2rem;
+    padding-left: 2rem;
+
+    padding-bottom: 4rem;
+  }
+  #advertText {
+    font-size: 3rem;
+    letter-spacing: -3px;
+    color: var(--small-special-text-color);
+    font-family: SemiBold;
+  }
+  .shiTopTabAndMobile2 {
+    margin-top: 40rem;
+  }
+  .shiTopTabAndMobile4 {
+    margin-top: 3rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -217,12 +532,18 @@ button:focus-visible {
   .hideMobileAndTabFlex {
     display: none;
   }
+  .shiTopTabAndMobile2 {
+    margin-top: 2rem;
+  }
+  .shiTopTabAndMobile4 {
+    margin-top: 1rem;
+  }
   .ShowDeskTop {
     display: none;
   }
   .defaultPadding {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .HideDesktop {
     display: block;
@@ -240,40 +561,45 @@ button:focus-visible {
   }
   .relativePic {
     position: absolute;
-    top: 30rem;
+    top: 23rem;
     left: 5rem;
   }
   .relativeBlock {
     position: absolute;
-    top: 28rem;
+    top: 20rem;
     left: -2rem;
   }
   .relativeBox {
     position: absolute;
-    top: 60rem;
-    left: 17rem;
+    top: 43rem;
+    left: 1rem;
   }
   .gridImail1 {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 1rem;
+    gap: 0.5rem;
+    max-width: 42rem;
     /* max-height: 35rem; */
     /* overflow: hidden; */
   }
   .grid4 {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 6rem;
     /* max-height: 35rem; */
     /* overflow: hidden; */
   }
- 
+
+  .hidePhoneTab {
+    display: none;
+  }
+
   .shiTopTabAndMobileSection4 {
     margin-top: -7rem;
   }
   .section7Grid {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     gap: 4rem;
     padding-top: rem;
     padding-bottom: 5rem;
@@ -285,19 +611,153 @@ button:focus-visible {
     /* font-weight: 700; */
     letter-spacing: -3px;
     line-height: 1.1;
-    font-weight: 400;
+    font-weight: 200;
   }
-  .grad::before{
+  .grad::before {
     content: "";
     position: absolute;
     right: -10rem;
     top: 0;
     bottom: 0;
-    width:50%;
+    width: 50%;
     background-repeat: no-repeat;
     background-image: none;
-    opacity: .5;
-}
+    opacity: 0.5;
+  }
+  .sectionDiv {
+    background-color: #fcfcfc;
+  }
+  .gridSection5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .widthRestrictDeskTOp {
+    max-width: 100rem;
+  }
+  .section6Grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .grad {
+    background-color: rgb(62, 103, 245);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    backdrop-filter: brightness(0.5);
+    background-position-y: bottom;
+    /* height: 100vh; */
+  }
+  .section6Grid2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 4rem;
+  }
+  .smallMainText {
+    color: var(--main-text-color);
+    font-family: mediumText;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: -3px;
+  }
+  .mainText2 {
+    color: #082552;
+    font-family: VeryBold;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: -5px;
+  }
+
+  .smallMainText2 {
+    color: var(--main-text-color);
+    font-family: mediumText;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  #sectionNote {
+    font-size: 3rem;
+  }
+  #startAmount {
+    font-size: 7rem;
+    letter-spacing: 3px;
+  }
+  #profitAmount {
+    font-size: 7rem;
+    letter-spacing: 3px;
+    color: #6c82a3;
+  }
+  #section4MainHeading {
+    font-size: 3rem;
+  }
+
+  #demoParagraph {
+    font-size: 1.5rem;
+    color: #082552;
+    font-weight: 100;
+    /* max-width: 400rem; */
+  }
+  #demoHeading {
+    font-size: 1.6rem;
+  }
+  .rating {
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+  }
+  .hidePhone {
+    display: -ms-inline-grid;
+  }
+  .HideDesktopAndTab {
+    display: none;
+  }
+  .lastCtaPadding {
+    padding: 3rem 3rem;
+  }
+
+  #lastCtaText {
+    font-size: 2.4rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .inputBox input[type="email"] {
+    background-color: transparent;
+    border: none;
+    color: #fff !important;
+    font-size: 1.4rem;
+    width: 80%;
+    padding: 0.8rem;
+  }
+
+  .lastCtaBtn {
+    background-color: #fff;
+    color: black;
+    padding: 1rem;
+    /* width: 100%; */
+  }
+
+  .advartCards {
+    border: 1px solid #0066f5;
+    padding: 0.5rem;
+    border-radius: 24px;
+
+    min-height: 200px;
+    min-width: 480px;
+    margin-right: 2rem;
+    padding-left: 2rem;
+
+    padding-bottom: 4rem;
+  }
+  /* #strockNumber{
+    font-size: 1.5rem;
+  } */
+  #advertText {
+    font-size: 3rem;
+    letter-spacing: -3px;
+    color: var(--small-special-text-color);
+    font-family: SemiBold;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -326,6 +786,9 @@ button:focus-visible {
   .shiTopTabAndMobile {
     margin-top: 0rem;
   }
+  .shiTopTabAndMobile2 {
+    margin-top: 25rem;
+  }
   .relativePic {
     position: absolute;
     top: 4rem;
@@ -375,23 +838,148 @@ button:focus-visible {
   .shiTopTabAndMobileSection4 {
     margin-top: -9rem;
   }
-  .grad::before{
+  .grad::before {
     content: "";
     position: absolute;
     right: -10rem;
     top: 0;
     bottom: 0;
-    width:50%;
+    width: 50%;
     background-repeat: no-repeat;
     background-image: url(https://cowrywise.com/images/illos/security.svg);
-    opacity: .5;
-}
+    opacity: 0.5;
+  }
+  .sectionDiv {
+    background-color: #fcfcfc;
+  }
+  .gridSection5 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .widthRestrictDeskTOp {
+    max-width: 25rem;
+  }
+  .section6Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+  .grad {
+    background-color: rgb(62, 103, 245);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    backdrop-filter: brightness(0.5);
+    background-position-y: bottom;
+    /* height: 100vh; */
+  }
+  .section6Grid2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 4rem;
+  }
+  .smallMainText {
+    color: var(--main-text-color);
+    font-family: mediumText;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: -3px;
+  }
+  #sectionNote {
+    font-size: 3rem;
+  }
+  #startAmount {
+    font-size: 7rem;
+    letter-spacing: 3px;
+  }
+  #profitAmount {
+    font-size: 7rem;
+    letter-spacing: 3px;
+    color: #6c82a3;
+  }
+  #section4MainHeading {
+    font-size: 2.8rem;
+  }
+
+  #demoParagraph {
+    font-size: 1.2rem;
+    color: #082552;
+    font-weight: 100;
+  }
+  #demoHeading {
+    font-size: 1.3rem;
+  }
+  .hidePhoneTab {
+    display: block;
+  }
+  .rating {
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+  }
+  .hidePhone {
+    display: block;
+  }
+  .HideDesktopAndTab {
+    display: none;
+  }
+  .lastCtaPadding {
+    padding: 3rem 3rem;
+  }
+
+  #lastCtaText {
+    font-size: 2.4rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .inputBox input[type="email"] {
+    background-color: transparent;
+    border: none;
+    color: #fff !important;
+    font-size: 1.4rem;
+    width: 80%;
+    padding: 0.8rem;
+  }
+
+  .lastCtaBtn {
+    background-color: #fff;
+    color: black;
+    padding: 1rem;
+    /* width: 100%; */
+  }
+
+  .advartCards {
+    border: 1px solid #0066f5;
+    padding: 0.5rem;
+    border-radius: 24px;
+
+    min-height: 200px;
+    min-width: 480px;
+    margin-right: 2rem;
+    padding-left: 2rem;
+
+    padding-bottom: 4rem;
+  }
+  #advertText {
+    font-size: 3rem;
+    letter-spacing: -3px;
+    color: var(--small-special-text-color);
+    font-family: SemiBold;
+  }
+  .shiTopTabAndMobile4 {
+    margin-top: -8rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .hideMobileAndTabFlex {
     display: flex;
+  }
+  .shiTopTabAndMobile4 {
+    margin-top: -8rem;
   }
   .ShowDeskTop {
     display: flex;
@@ -408,7 +996,7 @@ button:focus-visible {
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
     /* max-height: 35rem; */
     /* overflow: hidden; */
   }
@@ -418,7 +1006,7 @@ button:focus-visible {
   .relativePic {
     position: absolute;
     top: 4rem;
-    left: 5rem;
+    left: 2rem;
   }
   .relativeBox {
     position: absolute;
@@ -461,17 +1049,152 @@ button:focus-visible {
     font-weight: 600;
   }
   .shiTopTabAndMobileSection4 {
-    margin-top: -9rem;
+    margin-top: 2rem;
   }
-  .grad::before{
+  .grad::before {
     content: "";
     position: absolute;
     right: -10rem;
     top: 0;
     bottom: 0;
-    width:50%;
+    width: 50%;
     background-repeat: no-repeat;
     background-image: url(https://cowrywise.com/images/illos/security.svg);
-    opacity: .5;
-}
+    opacity: 0.5;
+  }
+  .sectionDiv {
+    background-color: #fcfcfc;
+  }
+  .gridSection5 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .widthRestrictDeskTOp {
+    max-width: 25rem;
+  }
+  .section6Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+  .grad {
+    background-color: rgb(62, 103, 245);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    backdrop-filter: brightness(0.5);
+    background-position-y: bottom;
+    /* height: 100vh; */
+  }
+  .section6Grid2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 4rem;
+  }
+  .smallMainText {
+    color: var(--main-text-color);
+    font-family: mediumText;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: -3px;
+  }
+  .mainText2 {
+    color: #082552;
+    font-family: VeryBold;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: -5px;
+  }
+
+  .smallMainText2 {
+    color: var(--main-text-color);
+    font-family: mediumText;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  #sectionNote {
+    font-size: 3rem;
+  }
+
+  #startAmount {
+    font-size: 7rem;
+    letter-spacing: 3px;
+  }
+  #profitAmount {
+    font-size: 7rem;
+    letter-spacing: 3px;
+    color: #6c82a3;
+  }
+  #section4MainHeading {
+    font-size: 2.8rem;
+  }
+
+  #demoParagraph {
+    font-size: 1.2rem;
+    color: #082552;
+    font-weight: 100;
+  }
+  #demoHeading {
+    font-size: 1.3rem;
+  }
+  .hidePhoneTab {
+    display: block;
+  }
+  .hidePhone {
+    display: block;
+  }
+
+  .rating {
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+  }
+  .lastCtaPadding {
+    padding: 5rem 5rem;
+  }
+  .HideDesktopAndTab {
+    display: none;
+  }
+
+  #lastCtaText {
+    font-size: 2.4rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .inputBox input[type="email"] {
+    background-color: transparent;
+    border: none;
+    color: #fff !important;
+    font-size: 1.4rem;
+    width: 80%;
+    padding: 0rem;
+  }
+
+  .lastCtaBtn {
+    background-color: #fff;
+    color: black;
+    padding: 0.6rem;
+    width: 50%;
+  }
+
+  .advartCards {
+    border: 1px solid #0066f5;
+    padding: 0.5rem;
+    border-radius: 24px;
+
+    min-height: 200px;
+    min-width: 480px;
+    margin-right: 2rem;
+    padding-left: 2rem;
+
+    padding-bottom: 4rem;
+  }
+  #advertText {
+    font-size: 3rem;
+    letter-spacing: -3px;
+    color: var(--small-special-text-color);
+    font-family: SemiBold;
+  }
 }

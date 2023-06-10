@@ -18,40 +18,80 @@
 .lastCta {
   background-color: var(--small-special-text-color);
   border-radius: 15px;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
 }
 
-
-
-#lastCtaText {
-  font-size: 2.4rem;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-.lastCtaBtn{
-    background-color: #fff;
-    color:black;
-    width: 100%;
+.lastCtaBtn {
+  background-color: #fff;
+  color: black;
+  /* width: 100%; */
 }
 
 .inputBox {
   background-color: hsla(0, 0%, 100%, 0.25);
   display: flex;
-  padding: .5rem 1rem;
-  width: 100%;
+  padding: 0.5rem 1rem;
+  /* width: 80%; */
   border-radius: 6px;
+}
+.inputBox input[type="email"] {
+  background-color: transparent;
+  border: none;
+  color: #fff !important;
+  font-size: 1.4rem;
+  width: 80%;
+}
 
+.inputBox input::placeholder {
+  color: #fff;
+  font-weight: 300;
 }
-.inputBox input[type="email"]{
-    background-color: transparent;
-    border: none;
-    color: #fff!important;
-    font-size: 1.4rem;
-    
+
+/* galexy fold devices (phones, 600px and down*/
+@media only screen and (max-width: 280px) {
 }
-.inputBox input::placeholder{
-    color: #fff;
-    font-weight: 300;
-    
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .lastCtaGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .lastCtaGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .lastCtaGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .lastCtaGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .lastCtaGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
 }

@@ -44,10 +44,6 @@
   max-width: 100%;
 }
 
-.sectionDiv {
-  background-color: #fcfcfc;
-  height: 100vh;
-}
 
 .stack4 {
   display: flex;
@@ -61,19 +57,9 @@
   gap: 3rem;
 }
 
-#demoHeading{
-    font-size: 1.3rem;
-}
 
-#section4MainHeading{
-    font-size: 2.8rem;
-}
 
-#demoParagraph{
-    font-size: 1.2rem;
-    color: #082552;
-    font-weight: 100;
-}
+
 #strockNumber{
     color:#0066f4;
     font-size: large;
