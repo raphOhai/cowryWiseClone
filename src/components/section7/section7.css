@@ -1,0 +1,57 @@
+:root {
+  --main-color: #ff4300;
+  --text-color-white: #fff;
+  --small-text-color: #7e91ae;
+  --heading-text-size: 1.2rem;
+  --hero-text-size: 2rem;
+  --head-font-Weight: 200;
+  --stack-gap: 1rem;
+  --margin--top-val: 5rem;
+
+  --small-text-size: 1rem;
+  --small-special-text-color: #0066f4;
+  --main-text-color: #082552;
+
+  --main-text-size: 8rem;
+}
+
+.lastCta {
+  background-color: var(--small-special-text-color);
+  border-radius: 15px;
+  padding-top: 3rem;
+}
+
+
+
+#lastCtaText {
+  font-size: 2.4rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.lastCtaBtn{
+    background-color: #fff;
+    color:black;
+    width: 100%;
+}
+
+.inputBox {
+  background-color: hsla(0, 0%, 100%, 0.25);
+  display: flex;
+  padding: .5rem 1rem;
+  width: 100%;
+  border-radius: 6px;
+
+}
+.inputBox input[type="email"]{
+    background-color: transparent;
+    border: none;
+    color: #fff!important;
+    font-size: 1.4rem;
+    
+}
+.inputBox input::placeholder{
+    color: #fff;
+    font-weight: 300;
+    
+}

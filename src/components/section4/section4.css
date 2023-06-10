@@ -27,13 +27,7 @@
   background-position-x: -30rem;
 }
 
-.grid4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  /* max-height: 35rem; */
-  /* overflow: hidden; */
-}
+
 .grid5 {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -52,6 +46,7 @@
 
 .sectionDiv {
   background-color: #fcfcfc;
+  height: 100vh;
 }
 
 .stack4 {

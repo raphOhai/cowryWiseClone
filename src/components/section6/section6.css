@@ -1,0 +1,78 @@
+:root {
+    --main-color: #ff4300;
+    --text-color-white: #fff;
+    --small-text-color: #7e91ae;
+    --heading-text-size: 1.2rem;
+    --hero-text-size: 2rem;
+    --head-font-Weight: 200;
+    --stack-gap: 1rem;
+    --margin--top-val: 5rem;
+  
+    --small-text-size: 1rem;
+    --small-special-text-color: #0066f4;
+    --main-text-color: #082552;
+  
+    --main-text-size: 8rem;
+  }
+  
+
+
+.section6FlexBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.section6FlexBox2 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+  }
+
+.section6Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+
+.section6Grid2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 4rem;
+  }
+  
+
+.section6Cards {
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2rem;
+  width: 90%;
+  border: 1px solid rgba(8,37,82,.07);
+}
+
+.rating{
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+
+.appStoreBox{
+  width: 8rem;
+  height: 5rem;
+}
+
+#cardsText{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+#cardParagraph{
+    font-size: .8rem;
+    max-width: 32rem;
+}
+
+.downloadNowCta{
+    color:var(--small-special-text-color) ;
+    font-size: 1rem;
+}

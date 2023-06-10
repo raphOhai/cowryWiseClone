@@ -7,19 +7,19 @@ const Header = () => {
     <div className="header defaultPadding">
       <div className="center">
         <Logo />
-        <div className="header-items">
+        <div className="header-items hideMobileAndTabFlex">
           <p className="smallText">personal</p>
           <DropDownIcon />
         </div>
-        <div className="header-items">
+        <div className="header-items hideMobileAndTabFlex">
           <p className="smallText">Business</p>
           <DropDownIcon />
         </div>
-        <div className="header-items">
+        <div className="header-items hideMobileAndTabFlex">
           <p className="smallText">Developer</p>
           <DropDownIcon />
         </div>
-        <div className="header-items">
+        <div className="header-items hideMobileAndTabFlex">
           <p className="smallText">Learn</p>
           {/* <DropDownIcon/> */}
         </div>

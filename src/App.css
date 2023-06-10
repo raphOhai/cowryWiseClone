@@ -190,15 +190,7 @@
   text-align: center;
 }
 
-.mainText {
-  color: #082552;
-  font-family: VeryBold;
-  font-size: 6.4rem;
-  /* font-weight: 700; */
-  letter-spacing: -7.5px;
-  line-height: 1.1;
-  font-weight: 600;
-}
+
 
 .mainText2 {
   color: #082552;
@@ -256,6 +248,7 @@
 }
 .flex {
   display: flex;
+  gap:1rem
 }
 
 .mainGrid {
@@ -330,16 +323,6 @@
   top: -40rem;
   left: 3rem;
 } */
-.relativePic {
-  position: absolute;
-  top: 4rem;
-  left: 5rem;
-}
-.relativeBox {
-  position: absolute;
-  top: 35rem;
-  left: 17rem;
-}
 
 .WhiteBox {
   background-color: #fff;

@@ -70,4 +70,408 @@ button:focus-visible {
 * {
   margin: 0;
   padding: 0;
+}
+
+/* galexy fold devices (phones, 600px and down*/
+@media only screen and (max-width: 280px) {
+  .hideMobileAndTabFlex {
+    display: none;
   }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hideMobileAndTabFlex {
+    display: none;
+  }
+
+  .shiTopTabAndMobile {
+    margin-top: 10rem;
+  }
+  .ShowDeskTop {
+    display: none;
+  }
+  .defaultPadding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .HideDesktop {
+    display: block;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .relativePic {
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+  }
+
+  .gridImail1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .grid4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .section7Grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding-top: rem;
+    padding-bottom: 5rem;
+  }
+  .grad::before{
+    content: "";
+    position: absolute;
+    right: -10rem;
+    top: 0;
+    bottom: 0;
+    width:50%;
+    background-repeat: no-repeat;
+    background-image: none;
+    opacity: .5;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .hideMobileAndTabFlex {
+    display: none;
+  }
+  .ShowDeskTop {
+    display: none;
+  }
+  .defaultPadding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .HideDesktop {
+    display: block;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .shiTopTabAndMobile {
+    margin-top: 10rem;
+  }
+  .shiTopTabAndMobileSection4 {
+    margin-top: 10rem;
+  }
+  .relativePic {
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+  }
+  .gridImail1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .grid4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .section7Grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding-top: rem;
+    padding-bottom: 5rem;
+  }
+  .grad::before{
+    content: "";
+    position: absolute;
+    right: -10rem;
+    top: 0;
+    bottom: 0;
+    width:50%;
+    background-repeat: no-repeat;
+    background-image: none;
+    opacity: .5;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hideMobileAndTabFlex {
+    display: none;
+  }
+  .ShowDeskTop {
+    display: none;
+  }
+  .defaultPadding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .HideDesktop {
+    display: block;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .shiTopTabAndMobile {
+    margin-top: 50rem;
+  }
+  .relativePic {
+    position: absolute;
+    top: 30rem;
+    left: 5rem;
+  }
+  .relativeBlock {
+    position: absolute;
+    top: 28rem;
+    left: -2rem;
+  }
+  .relativeBox {
+    position: absolute;
+    top: 60rem;
+    left: 17rem;
+  }
+  .gridImail1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .grid4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+ 
+  .shiTopTabAndMobileSection4 {
+    margin-top: -7rem;
+  }
+  .section7Grid {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 4rem;
+    padding-top: rem;
+    padding-bottom: 5rem;
+  }
+  .mainText {
+    color: #082552;
+    font-family: VeryBold;
+    font-size: 4.9rem;
+    /* font-weight: 700; */
+    letter-spacing: -3px;
+    line-height: 1.1;
+    font-weight: 400;
+  }
+  .grad::before{
+    content: "";
+    position: absolute;
+    right: -10rem;
+    top: 0;
+    bottom: 0;
+    width:50%;
+    background-repeat: no-repeat;
+    background-image: none;
+    opacity: .5;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .hideMobileAndTabFlex {
+    display: flex;
+  }
+  .ShowDeskTop {
+    display: block;
+  }
+  .HideDesktop {
+    display: none;
+  }
+  .defaultPadding {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .shiTopTabAndMobile {
+    margin-top: 0rem;
+  }
+  .relativePic {
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+  }
+  .relativeBox {
+    position: absolute;
+    top: 35rem;
+    left: 17rem;
+  }
+
+  .relativeBlock {
+    position: absolute;
+    top: 1rem;
+    left: -2rem;
+  }
+  .gridImail1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .section7Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding-top: rem;
+    padding-bottom: 5rem;
+  }
+  .mainText {
+    color: #082552;
+    font-family: VeryBold;
+    font-size: 6.4rem;
+    /* font-weight: 700; */
+    letter-spacing: -7.5px;
+    line-height: 1.1;
+    font-weight: 600;
+  }
+  .shiTopTabAndMobileSection4 {
+    margin-top: -9rem;
+  }
+  .grad::before{
+    content: "";
+    position: absolute;
+    right: -10rem;
+    top: 0;
+    bottom: 0;
+    width:50%;
+    background-repeat: no-repeat;
+    background-image: url(https://cowrywise.com/images/illos/security.svg);
+    opacity: .5;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .hideMobileAndTabFlex {
+    display: flex;
+  }
+  .ShowDeskTop {
+    display: flex;
+  }
+
+  .HideDesktop {
+    display: none;
+  }
+  .defaultPadding {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .shiTopTabAndMobile {
+    margin-top: 0rem;
+  }
+  .relativePic {
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+  }
+  .relativeBox {
+    position: absolute;
+    top: 35rem;
+    left: 17rem;
+  }
+  .relativeBlock {
+    position: absolute;
+    top: 1rem;
+    left: -2rem;
+  }
+  .gridImail1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* max-height: 35rem; */
+    /* overflow: hidden; */
+  }
+  .section7Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding-top: rem;
+    padding-bottom: 5rem;
+  }
+  .mainText {
+    color: #082552;
+    font-family: VeryBold;
+    font-size: 6.4rem;
+    /* font-weight: 700; */
+    letter-spacing: -7.5px;
+    line-height: 1.1;
+    font-weight: 600;
+  }
+  .shiTopTabAndMobileSection4 {
+    margin-top: -9rem;
+  }
+  .grad::before{
+    content: "";
+    position: absolute;
+    right: -10rem;
+    top: 0;
+    bottom: 0;
+    width:50%;
+    background-repeat: no-repeat;
+    background-image: url(https://cowrywise.com/images/illos/security.svg);
+    opacity: .5;
+}
+}

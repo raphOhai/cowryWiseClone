@@ -7,18 +7,18 @@ const Section4 = () => {
     <div className="sectionDiv">
       <div>
         <div className="grid4 defaultPadding">
-          <div className="section4Background">
+          <div className="section4Background hideMobileAndTabFlex">
             <div
               style={{ marginTop: "5rem", marginLeft: "5rem" }}
-              className=" muckupContainer center"
+              className=" muckupContainer center flex"
             >
               <img className="muckup" src={phone} alt="" />
             </div>
           </div>
-          <div>
+          <div className="shiTopTabAndMobileSection4">
             <div
               style={{ marginTop: "8rem", marginLeft: "5rem" }}
-              className="stack"
+              className="stack "
             >
               <div className="stack4">
                 <p

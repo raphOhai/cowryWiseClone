@@ -19,8 +19,13 @@
   background-image: linear-gradient(90deg, #67436f, #a530f2);
 }
 .grad {
-  background: rgb(62, 103, 245);
-  background: -moz-linear-gradient(
+  background-color: rgb(62, 103, 245);
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: brightness(.5);
+  background-position-y: bottom;
+  height: 100vh;
+  /* background: -moz-linear-gradient(
     90deg,
     rgba(62, 103, 245, 1) 0%,
     rgba(62, 103, 245, 1) 43%,
@@ -37,8 +42,19 @@
     rgba(62, 103, 245, 1) 0%,
     rgba(62, 103, 245, 1) 43%,
     rgba(62, 103, 245, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3e67f5",endColorstr="#3e67f5",GradientType=1);
+  ); */
+}
+
+.grad::before{
+    content: "";
+    position: absolute;
+    right: -10rem;
+    top: 0;
+    bottom: 0;
+    width:50%;
+    background-repeat: no-repeat;
+    background-image: url(https://cowrywise.com/images/illos/security.svg);
+    opacity: .5;
 }
 
 
@@ -80,19 +96,18 @@
   flex-direction: column;
   gap: var(--stack-gap);
 }
-#Section5BulletPointText{
-    color: var(--text-color-white);
-    font-size: 1.3rem;
+#Section5BulletPointText {
+  color: var(--text-color-white);
+  font-size: 1.3rem;
 }
 
-.blueBox{
-    position:absolute;
-    top: 278rem;
-    left: 52rem;
-
+.blueBox {
+  position: absolute;
+  top: 278rem;
+  left: 52rem;
 }
 
-.saveSvg{
-    width: 40rem;
-    height: 40rem;
+.saveSvg {
+  width: 40rem;
+  height: 40rem;
 }
