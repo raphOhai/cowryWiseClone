@@ -14,7 +14,7 @@ const Section7 = () => {
 
             <div className="inputBox">
               <input type="email" placeholder="email" />
-              <button className="mainBtn lastCtaBtn hidePhone">
+              <button className="mainBtn lastCtaBtn hideMobile">
                 sign up for free
               </button>
             </div>

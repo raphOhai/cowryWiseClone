@@ -146,10 +146,7 @@
   background-color: #0066f4;
   width: 100vw;
 }
-.header > div {
-  display: flex;
-  gap: 3rem;
-}
+
 
 .header-items {
   display: flex;
@@ -323,7 +320,7 @@
 }
 
 .fullHeight {
-  height: 100vh;
+  /* height: 100vh; */
 }
 .overFlowHidden {
   overflow: hidden;
@@ -463,4 +460,10 @@ div::-webkit-scrollbar {
   to {
     transform: translateX(-100%);
   }
+}
+
+
+.returnBacground{
+  background-image: url(https://cowrywise.com/images/illos/return-pattern.svg);
+  background-repeat: no-repeat;
 }

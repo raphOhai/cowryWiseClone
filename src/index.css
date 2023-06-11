@@ -211,7 +211,7 @@
   }
 
   .shiTopTabAndMobile2 {
-    margin-top: 25rem;
+    margin-top: 33rem;
   }
   #sectionNote {
     font-size: 2rem;
@@ -248,6 +248,9 @@
     font-size: 2rem;
   }
   .hidePhone {
+    display: none;
+  }
+  .hideMobile {
     display: none;
   }
   .HideDesktopAndTab {
@@ -300,8 +303,8 @@
   .shiTopTabAndMobile4 {
     margin-top: -8rem;
   }
-  .shiTopTabAndMobile5{
-    margin-top: -12rem;
+  .shiTopTabAndMobile5 {
+    margin-top: 0rem;
   }
 }
 
@@ -351,7 +354,7 @@
     top: 43rem;
     left: 1rem;
   }
-  .responsivePhone  {
+  .responsivePhone {
     width: 50vw;
   }
   .gridImail1 {
@@ -485,6 +488,9 @@
   .hidePhone {
     display: none;
   }
+  .hideMobile {
+    display: none;
+  }
   .lastCtaPadding {
     padding: 3rem 3rem;
   }
@@ -534,7 +540,7 @@
   .shiTopTabAndMobile4 {
     margin-top: 3rem;
   }
-  .shiTopTabAndMobile5{
+  .shiTopTabAndMobile5 {
     margin-top: -3rem;
   }
 }
@@ -571,6 +577,9 @@
 
   .shiTopTabAndMobile {
     margin-top: 50rem;
+  }
+  .hideMobile {
+    display: block;
   }
   .relativePic {
     position: absolute;
@@ -730,7 +739,7 @@
   }
 
   #lastCtaText {
-    font-size: 2.4rem;
+    font-size: 1.7rem;
     color: #fff;
     letter-spacing: 1px;
   }
@@ -747,7 +756,7 @@
     background-color: #fff;
     color: black;
     padding: 1rem;
-    /* width: 100%; */
+    width: 100%;
   }
 
   .advartCards {
@@ -771,8 +780,8 @@
     color: var(--small-special-text-color);
     font-family: SemiBold;
   }
-  .shiTopTabAndMobile5{
-    margin-top: -3rem;
+  .shiTopTabAndMobile5 {
+    margin-top: 0rem;
   }
 }
 
@@ -810,16 +819,13 @@
     top: 4rem;
     left: -1rem;
   }
-  .responsive{
+  .responsive {
     width: 25rem;
-   
   }
   .relativeBox {
     position: absolute;
     top: 28rem;
     left: -1rem;
-   
-  
   }
 
   .relativeBlock {
@@ -827,7 +833,7 @@
     top: 1rem;
     left: -3rem;
   }
-  .relativeBlock img{
+  .relativeBlock img {
     max-height: 50rem;
   }
   .gridImail1 {
@@ -950,6 +956,9 @@
   .hidePhone {
     display: block;
   }
+  .hideMobile {
+    display: block;
+  }
   .HideDesktopAndTab {
     display: none;
   }
@@ -999,8 +1008,8 @@
   .shiTopTabAndMobile4 {
     margin-top: -8rem;
   }
-  .shiTopTabAndMobile5{
-    margin-top: -24rem;
+  .shiTopTabAndMobile5 {
+    margin-top: -2rem;
   }
   .header > div {
     display: flex;
@@ -1039,9 +1048,8 @@
   .shiTopTabAndMobile {
     margin-top: 0rem;
   }
-  .responsive{
+  .responsive {
     width: 30rem;
-   
   }
   .relativePic {
     position: absolute;
@@ -1065,7 +1073,7 @@
     /* max-height: 35rem; */
     /* overflow: hidden; */
   }
- 
+
   .grid4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1187,6 +1195,9 @@
   .hidePhone {
     display: block;
   }
+  .hideMobile {
+    display: block;
+  }
 
   .rating {
     letter-spacing: 2px;
@@ -1243,8 +1254,8 @@
     color: var(--small-special-text-color);
     font-family: SemiBold;
   }
-  .shiTopTabAndMobile5{
-    margin-top: -10rem;
+  .shiTopTabAndMobile5 {
+    margin-top: 0rem;
   }
   .header > div {
     display: flex;

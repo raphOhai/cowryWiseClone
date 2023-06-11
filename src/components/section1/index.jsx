@@ -5,7 +5,7 @@ const Section1 = () => {
   return (
     <div
       style={{ }}
-      className="grid shiftTop defaultPadding fullHeight shiTopTabAndMobile2 "
+      className="grid shiftTo defaultPadding fullHeigh shiTopTabAndMobile2 "
     >
       <div className="stack">
         <h1 className="mainText2">
