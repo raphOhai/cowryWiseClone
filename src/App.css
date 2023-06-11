@@ -147,7 +147,6 @@
   width: 100vw;
 }
 
-
 .header-items {
   display: flex;
   justify-content: center;
@@ -462,8 +461,8 @@ div::-webkit-scrollbar {
   }
 }
 
-
-.returnBacground{
+.returnBacground {
   background-image: url(https://cowrywise.com/images/illos/return-pattern.svg);
   background-repeat: no-repeat;
 }
+

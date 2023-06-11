@@ -9,13 +9,14 @@ import Section4 from "./components/section4";
 import Section5 from "./components/section5";
 import Section6 from "./components/section6";
 import Section7 from "./components/section7";
-import SrollPosition from "./components/hooks";
+
+import HeaderStyle from "./components/hooks/scrollPosition";
 
 function App() {
-  SrollPosition()
+  HeaderStyle()
   return (
     <>
-      <div className="maxWidth stack3 overFlowHidden">
+      <div className="maxWidth stack overFlowHidden">
         <Header />
         <Hero />
         <Section1 />

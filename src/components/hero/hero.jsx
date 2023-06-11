@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="grid defaultPadding shiftTop">
-          <div className="shiTopTabAndMobile">
+          <div className="shiTopTabAndMobile2">
             <div className="relative">
               <div className="relativeBlock">
                 <img className="responsive" src="/Rectangle1.png" alt="" />

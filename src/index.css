@@ -97,27 +97,27 @@
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 2rem;
     /* max-height: 35rem; */
     /* overflow: hidden; */
   }
   .relativePic {
     position: absolute;
-    top: 23rem;
+    top: 12rem;
     left: -6rem;
     margin-left: 4rem;
   }
   .relativeBlock {
     position: absolute;
-    top: 20rem;
+    top: 10rem;
     left: -5rem;
     z-index: -1;
   }
   .relativeBox {
     position: absolute;
-    top: 38rem;
+    top: 30rem;
     left: -7rem;
-    width: 50vw;
+    min-width: calc(100vw*(80/100));
     margin: 2rem;
   }
   .responsive {
@@ -181,9 +181,9 @@
   .mainText {
     color: #082552;
     font-family: VeryBold;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     /* font-weight: 700; */
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
     line-height: 1.1;
     font-weight: 200;
   }
@@ -192,7 +192,7 @@
     font-family: mediumText;
     font-size: 2rem;
     font-weight: 400;
-    letter-spacing: -3px;
+    letter-spacing: -3.5px;
   }
   .mainText2 {
     color: #082552;
@@ -211,7 +211,7 @@
   }
 
   .shiTopTabAndMobile2 {
-    margin-top: 33rem;
+    margin-top: 29rem;
   }
   #sectionNote {
     font-size: 2rem;
