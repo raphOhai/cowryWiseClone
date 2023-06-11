@@ -12,7 +12,7 @@ const Section4 = () => {
               style={{ marginTop: "5rem", }}
               className=" hidePhoneTab flex center"
             >
-              <img  className="muckup responsive" src={phone} alt="" />
+              <img  className="responsivePhone" src={phone} alt="" />
             </div>
           </div>
           <div className="shiTopTabAndMobileSection4 flex alignStart">

@@ -123,6 +123,9 @@
   .responsive {
     width: 89vw;
   }
+  .responsivePhone {
+    width: 50vw;
+  }
   .gridImail1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -297,6 +300,9 @@
   .shiTopTabAndMobile4 {
     margin-top: -8rem;
   }
+  .shiTopTabAndMobile5{
+    margin-top: -12rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -344,6 +350,9 @@
     position: absolute;
     top: 43rem;
     left: 1rem;
+  }
+  .responsivePhone  {
+    width: 50vw;
   }
   .gridImail1 {
     display: grid;
@@ -525,6 +534,9 @@
   .shiTopTabAndMobile4 {
     margin-top: 3rem;
   }
+  .shiTopTabAndMobile5{
+    margin-top: -3rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -556,6 +568,7 @@
     /* max-height: 35rem; */
     /* overflow: hidden; */
   }
+
   .shiTopTabAndMobile {
     margin-top: 50rem;
   }
@@ -758,6 +771,9 @@
     color: var(--small-special-text-color);
     font-family: SemiBold;
   }
+  .shiTopTabAndMobile5{
+    margin-top: -3rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -787,23 +803,32 @@
     margin-top: 0rem;
   }
   .shiTopTabAndMobile2 {
-    margin-top: 25rem;
+    margin-top: 14rem;
   }
   .relativePic {
     position: absolute;
     top: 4rem;
-    left: 5rem;
+    left: -1rem;
+  }
+  .responsive{
+    width: 25rem;
+   
   }
   .relativeBox {
     position: absolute;
-    top: 35rem;
-    left: 17rem;
+    top: 28rem;
+    left: -1rem;
+   
+  
   }
 
   .relativeBlock {
     position: absolute;
     top: 1rem;
-    left: -2rem;
+    left: -3rem;
+  }
+  .relativeBlock img{
+    max-height: 50rem;
   }
   .gridImail1 {
     display: grid;
@@ -829,9 +854,9 @@
   .mainText {
     color: #082552;
     font-family: VeryBold;
-    font-size: 6.4rem;
+    font-size: 3rem;
     /* font-weight: 700; */
-    letter-spacing: -7.5px;
+    letter-spacing: -3px;
     line-height: 1.1;
     font-weight: 600;
   }
@@ -852,6 +877,9 @@
   .sectionDiv {
     background-color: #fcfcfc;
   }
+  .responsivePhone {
+    width: 80%;
+  }
   .gridSection5 {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
@@ -865,7 +893,7 @@
   .section6Grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 1rem;
   }
   .grad {
     background-color: rgb(62, 103, 245);
@@ -971,6 +999,13 @@
   .shiTopTabAndMobile4 {
     margin-top: -8rem;
   }
+  .shiTopTabAndMobile5{
+    margin-top: -24rem;
+  }
+  .header > div {
+    display: flex;
+    gap: 1rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -988,6 +1023,7 @@
   .HideDesktop {
     display: none;
   }
+
   .defaultPadding {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -996,22 +1032,26 @@
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
     /* max-height: 35rem; */
     /* overflow: hidden; */
   }
   .shiTopTabAndMobile {
     margin-top: 0rem;
   }
+  .responsive{
+    width: 30rem;
+   
+  }
   .relativePic {
     position: absolute;
     top: 4rem;
-    left: 2rem;
+    left: 4rem;
   }
   .relativeBox {
     position: absolute;
-    top: 35rem;
-    left: 17rem;
+    top: 30rem;
+    left: 10rem;
   }
   .relativeBlock {
     position: absolute;
@@ -1025,6 +1065,7 @@
     /* max-height: 35rem; */
     /* overflow: hidden; */
   }
+ 
   .grid4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1158,6 +1199,11 @@
     display: none;
   }
 
+  .responsivePhone {
+    width: 50%;
+    margin-left: 8rem;
+  }
+
   #lastCtaText {
     font-size: 2.4rem;
     color: #fff;
@@ -1196,5 +1242,12 @@
     letter-spacing: -3px;
     color: var(--small-special-text-color);
     font-family: SemiBold;
+  }
+  .shiTopTabAndMobile5{
+    margin-top: -10rem;
+  }
+  .header > div {
+    display: flex;
+    gap: 3rem;
   }
 }

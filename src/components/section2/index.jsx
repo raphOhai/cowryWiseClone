@@ -3,8 +3,8 @@ import React from "react";
 const Section2 = () => {
   return (
     <>
-      <div style={{}} className="niceBacground shiTopTabAndMobile4"></div>
-      <div className="defaultPadding">
+      <div style={{}} className="niceBacground shiTopTabAndMobile5 "></div>
+      <div className="defaultPadding ">
         <div className="defaultPadding">
           <div style={{ marginTop: "-29rem" }} className="stack3 center ">
             <p id="sectionNote" className="smallMainText2">
