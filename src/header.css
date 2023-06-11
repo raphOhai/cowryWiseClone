@@ -42,6 +42,11 @@
   .transition {
     transition: all 1s;
   }
+
+  .fastTransition{
+    transition: all .5s;
+
+  }
   
   
   
