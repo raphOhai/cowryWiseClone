@@ -25,9 +25,11 @@
 
 .section6FlexBox2 {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 1rem;
   }
+
+
 
 
 
