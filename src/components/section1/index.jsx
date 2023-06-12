@@ -2,11 +2,11 @@ import React from "react";
 import Savings from "../../assets/savings";
 import MultipleAnimator from "../hooks/animator2";
 import InterSectionChecker from "../hooks/animator";
-import { IncreaseHeight } from "../../reducer/DrawSvg";
+import { DecreaseHeight, IncreaseHeight } from "../../reducer/DrawSvg";
 
 const Section1 = () => {
   MultipleAnimator();
-  InterSectionChecker("trigger",  IncreaseHeight );
+  InterSectionChecker("trigger",  IncreaseHeight, DecreaseHeight );
   return (
     <div style={{}} className="grid shiftTo  fullHeigh shiTopTabAndMobile  ">
       <div className="stack sideSlide1 defaultPadding">
