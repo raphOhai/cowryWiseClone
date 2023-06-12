@@ -1,7 +1,9 @@
 import React from "react";
 import { advert } from "../advert";
+import Animate from "../hooks/animator";
 
 const Section3 = () => {
+  Animate("sideSlide");
   return (
     <div>
       <div className="alignStart widthRestrict defaultPadding ">
@@ -11,7 +13,7 @@ const Section3 = () => {
       </div>
       <div style={{ marginBottom: "3rem" }} id="ScrollDiv" className="example shiftTop ">
         {advert.map((m) => (
-          <div className="advartCards alignStart  flex track">
+          <div className="advartCards alignStart  flex track sideSlide group">
             <div className="widthRestrict2 ">
                 <em id="advertCommar"  className="mainText2">
                     "

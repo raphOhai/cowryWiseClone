@@ -20,6 +20,11 @@
     flex-direction: column-reverse;
     gap: 4rem;
   }
+  #MenuMinorText2 {
+    font-size: .5rem;
+    opacity: 0.6;
+    color: #fff;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -44,6 +49,11 @@
     flex-direction: column-reverse;
     gap: 4rem;
   }
+  #MenuMinorText2 {
+    font-size: .5rem;
+    opacity: 0.6;
+    color: #fff;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -66,6 +76,11 @@
     flex-wrap: wrap-reverse;
     flex-direction: column-reverse;
     gap: 4rem;
+  }
+  #MenuMinorText2 {
+    font-size: 1rem;
+    opacity: 0.6;
+    color: #fff;
   }
 }
 
@@ -113,4 +128,5 @@
     flex-direction: row;
     gap: 20rem;
   }
+  
 }

@@ -1,7 +1,9 @@
 import React from "react";
 import "./section5.css";
 import BulletPoint from "../../assets/BulletPoint";
+
 const Section5 = () => {
+
   return (
     <div className="grad  ">
       {/* <div className="bacgroundImage">
@@ -26,7 +28,7 @@ const Section5 = () => {
           </div>
           <div className="gridSection5">
             <div className="stackSection5 ">
-              <div style={{ marginTop: "2rem" }} className="stack">
+              <div style={{ marginTop: "2rem" }} className="stack SlideUp group">
                 <div className="flexBoxNoWrap">
                   <div className="flex center">
                     <BulletPoint />
@@ -48,7 +50,7 @@ const Section5 = () => {
                   </p>
                 </div>
               </div>
-              <div style={{ marginTop: "2rem" }} className="stack">
+              <div style={{ marginTop: "2rem" }} className="stack SlideUp group">
                 <div className="flexBoxNoWrap">
                   <div className="flex center">
                     <BulletPoint />
@@ -73,7 +75,7 @@ const Section5 = () => {
             </div>
 
             <div className="stackSection5 ">
-              <div style={{ marginTop: "2rem" }} className="stack">
+              <div style={{ marginTop: "2rem" }} className="stack SlideUp group">
                 <div className="flexBoxNoWrap">
                   <div className="flex center">
                     <BulletPoint />
@@ -95,7 +97,7 @@ const Section5 = () => {
                   </p>
                 </div>
               </div>
-              <div style={{ marginTop: "2rem" }} className="stack">
+              <div style={{ marginTop: "2rem" }} className="stack SlideUp group">
                 <div className="flexBoxNoWrap">
                   <div className="flex center">
                     <BulletPoint />

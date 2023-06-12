@@ -2,7 +2,12 @@ import React from "react";
 import "./section4.css";
 import phone from "/muckup.png";
 import Line1 from "../../assets/Line1";
+import Animate from "../hooks/animator";
+import MultipleAnimator from "../hooks/animator2";
+
 const Section4 = () => {
+  // animate2("fastSlide")
+  MultipleAnimator()
   return (
     <div className="sectionDiv">
       <div>
@@ -12,7 +17,7 @@ const Section4 = () => {
               style={{ marginTop: "5rem", }}
               className=" hidePhoneTab flex center"
             >
-              <img  className="responsivePhone" src={phone} alt="" />
+              <img  className="responsivePhone fastSlide" src={phone} alt="" />
             </div>
           </div>
           <div className="shiTopTabAndMobileSection4 flex alignStart">
@@ -56,7 +61,7 @@ const Section4 = () => {
                     </div>
                   </div> */}
                   <div className="stack">
-                    <div className="flexBoxNoWrap">
+                    <div className="flexBoxNoWrap slideDown">
                       <div className="flex center">
                         <p id="strockNumber" className="smallMainText2">
                           01
@@ -68,7 +73,7 @@ const Section4 = () => {
                       </p>
                     </div>
 
-                    <div className="flexBoxNoWrap">
+                    <div className="flexBoxNoWrap slideDown">
                       <div
                         style={{ marginLeft: ".5rem" }}
                         className="flex center"
@@ -85,7 +90,7 @@ const Section4 = () => {
                       </div>
                     </div>
 
-                    <div className="flexBoxNoWrap">
+                    <div className="flexBoxNoWrap slideDown">
                       <div className="flex center">
                         <p id="strockNumber" className="smallMainText2">
                           01
@@ -97,7 +102,7 @@ const Section4 = () => {
                       </p>
                     </div>
 
-                    <div className="flexBoxNoWrap">
+                    <div className="flexBoxNoWrap slideDown">
                       <div
                         style={{ marginLeft: ".5rem" }}
                         className="flex center"
@@ -113,7 +118,7 @@ const Section4 = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="flexBoxNoWrap">
+                    <div className="flexBoxNoWrap slideDown">
                       <div className="flex center">
                         <p id="strockNumber" className="smallMainText2">
                           01

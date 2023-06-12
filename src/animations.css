@@ -2,8 +2,15 @@
 .sideSlide {
   opacity: 0;
   /* filter: blur(2px); */
-  transform: translateX(-5%);
-  transition: all 0.5s;
+  transform: translateX(-15%);
+  transition: all 4s;
+}
+
+.fastSlide {
+  opacity: 0;
+  /* filter: blur(2px); */
+  transform: translateX(-10%);
+  transition: all 1s;
 }
 
 .SlideUp {
@@ -12,7 +19,12 @@
   transform: translatey(5%);
   transition: all 0.5s;
 }
-
+.slideDown{
+    opacity: 0;
+    filter: blur(2px);
+    transform: translatey(-5%);
+    transition: all 1s;
+}
 .show {
   opacity: 1;
   filter: blur(0);
