@@ -70,6 +70,9 @@
     display: none;
   }
 }
+.relativeBox{
+  max-width: 30rem;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -115,9 +118,9 @@
   }
   .relativeBox {
     position: absolute;
-    top: 30rem;
-    left: -7rem;
-    min-width: calc(100vw*(80/100));
+    top: 22rem;
+    left: -2rem;
+    min-width: calc(100vw * (80 / 100));
     margin: 2rem;
   }
   .responsive {
@@ -306,6 +309,13 @@
   .shiTopTabAndMobile5 {
     margin-top: 0rem;
   }
+  .imageBox {
+    background-color: #fdf5ec;
+    margin-left: -3rem;
+    max-width: 25rem;
+    height: 40rem;
+    padding-bottom: 2rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -351,7 +361,7 @@
   }
   .relativeBox {
     position: absolute;
-    top: 43rem;
+    top: 30rem;
     left: 1rem;
   }
   .responsivePhone {
@@ -543,6 +553,12 @@
   .shiTopTabAndMobile5 {
     margin-top: -3rem;
   }
+  .imageBox {
+    background-color: #fdf5ec;
+    margin-left: -3rem;
+    max-width: 25rem;
+    height: 40rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -566,7 +582,10 @@
   .HideDesktop {
     display: block;
   }
-
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
   .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -782,6 +801,14 @@
   }
   .shiTopTabAndMobile5 {
     margin-top: 0rem;
+  }
+  .imageBox {
+    background-color: #fdf5ec;
+    margin-left: -3rem;
+    max-width: 75vw;
+    padding-bottom: 6rem;
+    height: 57rem;
+ 
   }
 }
 
@@ -1014,6 +1041,12 @@
   .header > div {
     display: flex;
     gap: 1rem;
+  }
+  .imageBox {
+    background-color: #fdf5ec;
+    margin-left: -3rem;
+    max-width: 25rem;
+    height: 40rem;
   }
 }
 
@@ -1260,5 +1293,11 @@
   .header > div {
     display: flex;
     gap: 3rem;
+  }
+  .imageBox {
+    background-color: #fdf5ec;
+    margin-left: -3rem;
+    max-width: 25rem;
+    height: 40rem;
   }
 }

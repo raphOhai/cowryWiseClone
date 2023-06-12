@@ -20,7 +20,7 @@ const Section4 = () => {
               <img  className="responsivePhone fastSlide" src={phone} alt="" />
             </div>
           </div>
-          <div className="shiTopTabAndMobileSection4 flex alignStart">
+          <div className=" flex alignStart">
             <div style={{ marginTop: "8rem" }} className="stack ">
               <div className="stack4">
                 <p id="section4MainHeading" className="smallMainText2">

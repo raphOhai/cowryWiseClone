@@ -237,7 +237,7 @@
 .flexBox {
   display: flex;
   flex-wrap: wrap;
-  gap: 8rem;
+  gap: 2rem;
 }
 
 .flexBox2 {
@@ -291,11 +291,21 @@
   position: relative;
 }
 
-.relative:nth-child(1) {
+.absolute{
   position: absolute;
-  top: 9rem;
-  left: 4rem;
 }
+
+.zLower{
+  z-index: -2;
+}
+
+.imageBox{
+  background-color: #fdf5ec;
+  margin-left: -3rem;
+  max-width: 25rem;
+}
+
+
 
 .transition2{
   transition: all 1.5s;

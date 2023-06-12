@@ -15,13 +15,15 @@ import Section8 from "./components/section8";
 import MobileMenue from "./mobileMenue";
 
 function App() {
-  HeaderStyle()
+  HeaderStyle();
   return (
     <>
       <div className="maxWidth stack overFlowHidden">
-        <MobileMenue/>
+        <MobileMenue />
         <Header />
+
         <Hero />
+
         <Section1 />
         <Section2 />
         <Section3 />
@@ -29,7 +31,7 @@ function App() {
         <Section5 />
         <Section6 />
         <Section7 />
-        <Section8/>
+        <Section8 />
       </div>
     </>
   );

@@ -1,12 +1,17 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { ShowRangeValue } from "../../reducer/profitAnalyser";
 
 const Section2 = () => {
+  const { rangeValue, cowryWiseProfit, bankProfit, crytoProfit, NftProfit } =
+    useSelector((state) => state.profitAnalyser);
+  const dispatch = useDispatch();
   return (
     <>
       {/* <div style={{}} className="niceBacground shiTopTabAndMobile5 "></div> */}
-      <div className="defaultPadding returnBacground shiTopTabAndMobile5 ">
+      <div className="defaultPadding returnBacground ">
         <div className="defaultPadding">
-          <div  className="stack3 center ">
+          <div className="stack3 center ">
             <p id="sectionNote" className="smallMainText2">
               Stay the course, reap the reward
             </p>
@@ -36,12 +41,13 @@ const Section2 = () => {
           </div>
           <div style={{ marginTop: "3rem" }} className="defaultPadding">
             <input
+              onChange={(e) => dispatch(ShowRangeValue(e.target.value))}
               className="input"
               type="range"
               min="5000"
               max="10000000"
               step="1000"
-              value="900000"
+              value={rangeValue}
               data-v-c125b038=""
             />
           </div>
@@ -63,14 +69,21 @@ const Section2 = () => {
               234,600
             </p>
           </div>
-          <div style={{marginTop:"3rem"}} className="center flex defaultPadding stack">
+          <div
+            style={{ marginTop: "3rem" }}
+            className="center flex defaultPadding stack"
+          >
             <div className="specailBox defaultPadding">
-              <p>₦40,690,301 earned in returns on CowryWise</p>
+              <p>₦{cowryWiseProfit} earned in returns on CowryWise</p>
             </div>
             <p style={{ fontSize: ".9rem" }} className="smallText2">
-              *In the bank you'd have earned <span style={{color:"black"}}> ₦1,690,301 </span>
+              *In the bank you'd have earned{" "}
+              <span style={{ color: "black" }}> ₦{bankProfit}</span>
             </p>
-            <p style={{marginTop:"2rem",maxWidth:"60rem"}} className="smallText textAlignCenter smallText2">
+            <p
+              style={{ marginTop: "2rem", maxWidth: "60rem" }}
+              className="smallText textAlignCenter smallText2"
+            >
               Calculations are based on the average performance of conservative
               mutual funds on Cowrywise from 2019. Calculation excludes
               processing fees.

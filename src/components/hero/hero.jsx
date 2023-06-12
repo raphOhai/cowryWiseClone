@@ -42,15 +42,12 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="grid defaultPadding shiftTop">
-          <div className="shiTopTabAndMobile2">
+        <div className="grid defaultPadding">
+          <div className="">
             <div className="relative">
-              <div className="relativeBlock">
-                <img className="responsive" src="/Rectangle1.png" alt="" />
-                {/* <Block /> */}
-              </div>
-              <div className="relativePic ">
-                <img className="responsive " src={MainImage} alt="" />
+             
+              <div className="imageBox zLower">
+                <img style={{marginLeft:"3rem", marginTop:"2rem"}} className="responsive elevate" src={MainImage} alt="" />
               </div>
               <div className="WhiteBox relativeBox  ">
                 <div className="stack">
