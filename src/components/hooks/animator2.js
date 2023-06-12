@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-export default function MultipleAnimator(products, repeat) {
+export default function MultipleAnimator(runOnChange) {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -12,7 +12,7 @@ export default function MultipleAnimator(products, repeat) {
     });
     const hiddenElements = document.querySelectorAll(".fastSlide");
     const hiddenElement = document.querySelectorAll(".rightSlide");
-    const slideUpElement = document.querySelectorAll(".slideUp");
+    const slideUpElement = document.querySelectorAll(".SlideUp");
     const slideElement = document.querySelectorAll(".slideDown");
     const fadeinElement = document.querySelectorAll(".fadeIn");
     const boxElement = document.querySelectorAll(".boxAnimation");
@@ -30,5 +30,5 @@ export default function MultipleAnimator(products, repeat) {
     shoeElement.forEach((el) => observer.observe(el));
     colorElement.forEach((el) => observer.observe(el));
     tranlateElement.forEach((el) => observer.observe(el));
-  }, [products]);
+  }, [runOnChange]);
 }

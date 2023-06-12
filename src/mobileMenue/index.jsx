@@ -2,8 +2,9 @@ import React from "react";
 import DropDownIcon from "../assets/dropDownIcon";
 import "./mobileMenue.css";
 import Animate from "../components/hooks/animator";
+import MultipleAnimator from "../components/hooks/animator2";
 const MobileMenue = () => {
-  Animate("SlideUp");
+    MultipleAnimator()
   return (
     <div className="menueBox fastTransition">
       <div className="gridMobileMenue ">

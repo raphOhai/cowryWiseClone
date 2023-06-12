@@ -61,7 +61,7 @@ const Section4 = () => {
                     </div>
                   </div> */}
                   <div className="stack">
-                    <div className="flexBoxNoWrap slideDown">
+                    <div className="flexBoxNoWrap slideDown group">
                       <div className="flex center">
                         <p id="strockNumber" className="smallMainText2">
                           01
@@ -73,7 +73,7 @@ const Section4 = () => {
                       </p>
                     </div>
 
-                    <div className="flexBoxNoWrap slideDown">
+                    <div className="flexBoxNoWrap slideDown group">
                       <div
                         style={{ marginLeft: ".5rem" }}
                         className="flex center"
@@ -90,10 +90,10 @@ const Section4 = () => {
                       </div>
                     </div>
 
-                    <div className="flexBoxNoWrap slideDown">
+                    <div className="flexBoxNoWrap slideDown group">
                       <div className="flex center">
                         <p id="strockNumber" className="smallMainText2">
-                          01
+                          02
                         </p>
                       </div>
 
@@ -102,7 +102,7 @@ const Section4 = () => {
                       </p>
                     </div>
 
-                    <div className="flexBoxNoWrap slideDown">
+                    <div className="flexBoxNoWrap slideDown group">
                       <div
                         style={{ marginLeft: ".5rem" }}
                         className="flex center"
@@ -118,10 +118,10 @@ const Section4 = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="flexBoxNoWrap slideDown">
+                    <div className="flexBoxNoWrap slideDown group">
                       <div className="flex center">
                         <p id="strockNumber" className="smallMainText2">
-                          01
+                          03
                         </p>
                       </div>
 
@@ -130,7 +130,7 @@ const Section4 = () => {
                       </p>
                     </div>
 
-                    <div className="flexBoxNoWrap">
+                    <div className="flexBoxNoWrap slideDown group">
                       <div
                         style={{ marginLeft: ".5rem" }}
                         className="flex center"
