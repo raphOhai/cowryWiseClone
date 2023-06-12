@@ -297,6 +297,10 @@
   left: 4rem;
 }
 
+.transition2{
+  transition: all 1.5s;
+}
+
 /* .relative:nth-child(2) {
   position: absolute;
   top: -40rem;
@@ -464,5 +468,9 @@ div::-webkit-scrollbar {
 .returnBacground {
   background-image: url(https://cowrywise.com/images/illos/return-pattern.svg);
   background-repeat: no-repeat;
+}
+
+#overFlow{
+  overflow: hidden;
 }
 

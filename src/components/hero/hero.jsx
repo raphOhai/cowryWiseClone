@@ -1,7 +1,10 @@
 import React from "react";
 import MainImage from "/mainImage.png";
 import Block from "../../assets/block";
+import MainImageAnimator from "../hooks/animator";
+import MultipleAnimator from "../hooks/animator2";
 const Hero = () => {
+  MultipleAnimator()
   return (
     // <div>Hero</div>
     <>
@@ -10,17 +13,17 @@ const Hero = () => {
           style={{ maxWidth: "45rem" }}
           className="stack HideDesktop widthRestric defaultPadding"
         >
-          <p style={{ maxWidth: "35rem" }} className="mainText widthRestric">
+          <p style={{ maxWidth: "35rem" }} className="mainText widthRestric slideDown group">
             Put your money to work.
           </p>
 
           <h6
             style={{ maxWidth: "35rem" }}
-            className="smallMainText widthRestric"
+            className="smallMainText widthRestric slideDown group"
           >
             Invest wisely. Grow wealth.
           </h6>
-          <div className="gridImail1 hidePhone">
+          <div className="gridImail1 hidePhone slideDown group">
             <div className="center HideMobile">
               <input className="inputField" placeholder="your name..." />
             </div>
@@ -29,10 +32,10 @@ const Hero = () => {
               <button className="mainBtn ">sign up for free</button>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex slideDown group">
             <div className="HideDesktopAndTab">
               {" "}
-              <img className="appStoreBox" src="/appStore.svg" alt="" />
+              <img className="appStoreBox " src="/appStore.svg" alt="" />
             </div>
             <div className="HideDesktopAndTab">
               <img className="appStoreBox" src="/dowloadBadge.svg" alt="" />
@@ -46,8 +49,8 @@ const Hero = () => {
                 <img className="responsive" src="/Rectangle1.png" alt="" />
                 {/* <Block /> */}
               </div>
-              <div className="relativePic">
-                <img className="responsive" src={MainImage} alt="" />
+              <div className="relativePic ">
+                <img className="responsive " src={MainImage} alt="" />
               </div>
               <div className="WhiteBox relativeBox  ">
                 <div className="stack">
@@ -69,10 +72,10 @@ const Hero = () => {
           <div>
             <div className="stack shiftTop2 ShowDeskTop ">
               {/* <p className="mainText"> </p> */}
-              <p className="mainText">Put your money to work.</p>
+              <p className="mainText slideDown group">Put your money to work.</p>
 
-              <h6 className="smallMainText">Invest wisely. Grow wealth.</h6>
-              <div className="gridImail1">
+              <h6 className="smallMainText slideDown group">Invest wisely. Grow wealth.</h6>
+              <div className="gridImail1 slideDown group">
                 <div className="center">
                   <input className="inputField" placeholder="your name..." />
                 </div>

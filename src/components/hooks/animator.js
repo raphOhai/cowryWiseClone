@@ -1,19 +1,18 @@
-
 import { useEffect } from "react";
-export default function Animate(selector,) {
-//   const dispatch = useDispatch();
+import { useDispatch } from "react-redux";
+export default function InterSectionChecker(selector, action, revarseAction) {
+  const dispatch = useDispatch();
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            entry.target.classList.add("show");
+          dispatch(action());
         } else {
-          entry.target.classList.remove("show");
-          // dispatch(reverse());
+          dispatch(revarseAction());
         }
       });
     });
-    const hiddenElements = document.querySelectorAll("."+selector);
+    const hiddenElements = document.querySelectorAll("." + selector);
 
     hiddenElements.forEach((el) => observer.observe(el));
   }, []);

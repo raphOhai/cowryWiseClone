@@ -1,15 +1,18 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 const Savings = () => {
+  const { transform1 } = useSelector((state) => state.DrawSvg);
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1270 1360"
       width="1270"
       height="1360"
+      className="transition2"
       preserveAspectRatio="xMidYMid meet"
       // style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px)"
-      style={{width:"100%", height:"100%", transform: "translate3d(0px, 0px, 0px)"}}
+      style={{width:"100%", height:"100%", transform: transform1 }}
     >
       <defs>
         <clipPath id="__lottie_element_2">
@@ -76,6 +79,7 @@ const Savings = () => {
           >
             <path
               fill="rgb(8,37,82)"
+             
               fillOpacity="1"
               d=" M-98.18900299072266,-669.4039916992188 C-98.18900299072266,-669.4039916992188 -99.60299682617188,154.01800537109375 -99.60299682617188,154.01800537109375 C-99.60299682617188,154.01800537109375 97.86299896240234,154.02099609375 97.86299896240234,154.02099609375 C97.86299896240234,154.02099609375 99.60299682617188,-784.3480224609375 99.60299682617188,-784.3480224609375 C99.60299682617188,-784.3480224609375 -98.18900299072266,-669.4039916992188 -98.18900299072266,-669.4039916992188z"
             ></path>

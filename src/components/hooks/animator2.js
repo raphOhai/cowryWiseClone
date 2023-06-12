@@ -14,8 +14,8 @@ export default function MultipleAnimator(runOnChange) {
     const hiddenElement = document.querySelectorAll(".rightSlide");
     const slideUpElement = document.querySelectorAll(".SlideUp");
     const slideElement = document.querySelectorAll(".slideDown");
-    const fadeinElement = document.querySelectorAll(".fadeIn");
-    const boxElement = document.querySelectorAll(".boxAnimation");
+    const fadeinElement = document.querySelectorAll(".sideSlide1");
+    const boxElement = document.querySelectorAll(".sideSlide");
     const shoeElement = document.querySelectorAll(".shoeAnimation");
     const flipElement = document.querySelectorAll(".flipIn");
     const colorElement = document.querySelectorAll(".color");

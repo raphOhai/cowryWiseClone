@@ -1,15 +1,15 @@
 import React from "react";
 import Savings from "../../assets/savings";
 import MultipleAnimator from "../hooks/animator2";
+import InterSectionChecker from "../hooks/animator";
+import { IncreaseHeight } from "../../reducer/DrawSvg";
 
 const Section1 = () => {
-  MultipleAnimator()
+  MultipleAnimator();
+  InterSectionChecker("trigger",  IncreaseHeight );
   return (
-    <div
-      style={{ }}
-      className="grid shiftTo defaultPadding fullHeigh shiTopTabAndMobile "
-    >
-      <div className="stack">
+    <div style={{}} className="grid shiftTo  fullHeigh shiTopTabAndMobile  ">
+      <div className="stack sideSlide1 defaultPadding">
         <h1 className="mainText2">
           Get a <em className="littleStyle SlideUp">little </em> richer each day
         </h1>
@@ -17,7 +17,9 @@ const Section1 = () => {
           One small step today, a giant leap for tomorrow.
         </h6>
         <div>
-          <button className="mainBtn">start your Financial Journey</button>
+          <button className="mainBtn trigger">
+            start your Financial Journey
+          </button>
         </div>
       </div>
       <div>

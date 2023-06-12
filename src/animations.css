@@ -6,6 +6,13 @@
   transition: all 4s;
 }
 
+.sideSlide1 {
+    opacity: 0;
+    /* filter: blur(2px); */
+    transform: translateX(-15%);
+    transition: all 1s;
+  }
+
 .fastSlide {
   opacity: 0;
   /* filter: blur(2px); */
@@ -19,6 +26,8 @@
   transform: translatey(5%);
   transition: all 0.5s;
 }
+
+
 .slideDown{
     opacity: 0;
     filter: blur(2px);
@@ -30,6 +39,18 @@
   filter: blur(0);
   transform: translateX(0);
   rotate: 0deg;
+}
+
+.hightAnimator{
+    top: 5rem;
+    /* height: 2rem; */
+    transition: all 1s;
+
+}
+
+.auto{
+    
+    height: auto;
 }
 
 .rightSlide {

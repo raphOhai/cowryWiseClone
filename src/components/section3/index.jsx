@@ -1,9 +1,10 @@
 import React from "react";
 import { advert } from "../advert";
 import Animate from "../hooks/animator";
+import MultipleAnimator from "../hooks/animator2";
 
 const Section3 = () => {
-  Animate("sideSlide");
+  MultipleAnimator()
   return (
     <div>
       <div className="alignStart widthRestrict defaultPadding ">
