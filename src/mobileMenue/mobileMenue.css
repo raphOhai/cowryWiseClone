@@ -1,0 +1,111 @@
+:root {
+  --main-color: #ff4300;
+  --text-color-white: #fff;
+  --small-text-color: #7e91ae;
+  --heading-text-size: 1.2rem;
+  --hero-text-size: 2rem;
+  --head-font-Weight: 200;
+  --stack-gap: 1rem;
+  --margin--top-val: 5rem;
+
+  --small-text-size: 1rem;
+  --small-special-text-color: #0066f4;
+  --main-text-color: #082552;
+
+  --main-text-size: 8rem;
+}
+
+@font-face {
+  font-family: VeryBold;
+  src: url(../../public/BRFirmaCW-Bold.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: LightText;
+  src: url(../public/BRFirmaCW-Light.woff2);
+  font-weight: light;
+}
+@font-face {
+  font-family: mediumText;
+  src: url(../public/BRFirmaCW-Medium.woff2);
+  font-weight: medium;
+}
+@font-face {
+  font-family: RegularText;
+  src: url(../public/BRFirmaCW-Regular.woff2);
+  font-weight: regular;
+}
+@font-face {
+  font-family: SemiBold;
+  src: url(../public/BRFirmaCW-SemiBold.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Book;
+  src: url(../public/CircularXXWeb-Book.woff2);
+  font-weight: small;
+}
+@font-face {
+  font-family: VeryBold;
+  src: url(../public/BRFirmaCW-Bold.woff2);
+  font-weight: bold;
+}
+
+.menueBox {
+  background-color: var(--small-special-text-color);
+  width: 100vw;
+  height: 0vh;
+  position: fixed;
+  z-index: 5;
+}
+
+.meMenueBoxItem {
+  display: none;
+}
+
+.showMenue {
+  height: 100vh;
+}
+
+.addtoDom {
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#menueText2 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: VeryBold;
+}
+
+#MenuMinorText {
+  font-size: 1.2rem;
+  opacity: 0.6;
+  color: #fff;
+}
+
+#MenuMinorText2 {
+    font-size: .9rem;
+    opacity: 0.6;
+    color: #fff;
+  }
+
+.MobileMenueStack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.gridMobileMenue {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+
+.flexMenue{
+ position: fixed;
+ bottom: 0rem;
+ padding-bottom: .5rem;
+}

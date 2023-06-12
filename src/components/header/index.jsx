@@ -29,7 +29,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="center ">
+        <div className="center elevate ">
           <div
             onClick={() => ClickedMenue()}
             className="pieStack center hideDextopFlex"

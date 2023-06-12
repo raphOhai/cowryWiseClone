@@ -12,12 +12,14 @@ import Section7 from "./components/section7";
 
 import HeaderStyle from "./components/hooks/scrollPosition";
 import Section8 from "./components/section8";
+import MobileMenue from "./mobileMenue";
 
 function App() {
   HeaderStyle()
   return (
     <>
       <div className="maxWidth stack overFlowHidden">
+        <MobileMenue/>
         <Header />
         <Hero />
         <Section1 />

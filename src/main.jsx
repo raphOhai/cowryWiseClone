@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import "./moreMediaQuaries.css";
 import "./header.css";
+import './animations.css'
 import { Provider } from "react-redux";
 import store from "./reducer/index.js";
 ReactDOM.createRoot(document.getElementById("root")).render(

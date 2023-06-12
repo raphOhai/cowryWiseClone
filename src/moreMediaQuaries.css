@@ -8,7 +8,18 @@
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
   }
- 
+
+  .section8Grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .section8FlexBox {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -21,7 +32,18 @@
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
   }
- 
+
+  .section8Grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .section8FlexBox {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -34,7 +56,17 @@
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
   }
- 
+  .section8Grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .section8FlexBox {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -47,7 +79,18 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
   }
- 
+
+  .section8Grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .section8FlexBox {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -60,5 +103,14 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
   }
- 
+  .section8Grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .section8FlexBox {
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+  }
 }

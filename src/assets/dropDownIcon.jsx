@@ -1,6 +1,6 @@
 import React from "react";
 
-const DropDownIcon = () => {
+const DropDownIcon = ({ color }) => {
   return (
     <svg
       width="11"
@@ -14,16 +14,16 @@ const DropDownIcon = () => {
         y1="0.531479"
         x2="4.58565"
         y2="5.53148"
-        stroke="#7E91AE"
-        stroke-width="1.5"
+        stroke={color ? color : "#7E91AE"}
+        strokeWidth="1.5"
       />
       <line
         x1="9.57617"
         y1="0.480138"
         x2="4.57617"
         y2="6.48014"
-        stroke="#7E91AE"
-        stroke-width="1.5"
+        stroke={color ? color : "#7E91AE"}
+        strokeWidth="1.5"
       />
     </svg>
   );
