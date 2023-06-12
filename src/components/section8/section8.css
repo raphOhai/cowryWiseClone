@@ -1,0 +1,56 @@
+@font-face {
+  font-family: VeryBold;
+  src: url(../public/BRFirmaCW-Bold.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: LightText;
+  src: url(../public/BRFirmaCW-Light.woff2);
+  font-weight: light;
+}
+@font-face {
+  font-family: mediumText;
+  src: url(../public/BRFirmaCW-Medium.woff2);
+  font-weight: medium;
+}
+@font-face {
+  font-family: RegularText;
+  src: url(../public/BRFirmaCW-Regular.woff2);
+  font-weight: regular;
+}
+@font-face {
+  font-family: SemiBold;
+  src: url(../public/BRFirmaCW-SemiBold.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Book;
+  src: url(../public/CircularXXWeb-Book.woff2);
+  font-weight: small;
+}
+@font-face {
+  font-family: Book;
+  src: url(../../../public/CircularXXWeb-Book.woff2);
+  font-weight: light;
+}
+
+#footerHeading {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.footerStack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+
+#footerMainText {
+  font-family: Book;
+  color: rgba(8, 37, 82, 0.6);
+}
+.section6Stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}

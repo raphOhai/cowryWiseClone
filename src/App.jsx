@@ -11,6 +11,7 @@ import Section6 from "./components/section6";
 import Section7 from "./components/section7";
 
 import HeaderStyle from "./components/hooks/scrollPosition";
+import Section8 from "./components/section8";
 
 function App() {
   HeaderStyle()
@@ -26,6 +27,7 @@ function App() {
         <Section5 />
         <Section6 />
         <Section7 />
+        <Section8/>
       </div>
     </>
   );
