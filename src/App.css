@@ -473,3 +473,6 @@ div::-webkit-scrollbar {
   overflow: hidden;
 }
 
+#NiaraSymbol{
+  font-size: 1rem;
+}
