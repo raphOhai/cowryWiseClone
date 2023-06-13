@@ -1,0 +1,61 @@
+"filename", "language", "JavaScript", "JSON", "XML", "HTML", "Markdown", "JavaScript JSX", "CSS", "comment", "blank", "total"
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/.eslintrc.cjs", "JavaScript", 15, 0, 0, 0, 0, 0, 0, 0, 1, 16
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/README.md", "Markdown", 0, 0, 0, 0, 1, 0, 0, 0, 1, 2
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/home-device-section.svg", "XML", 0, 0, 1, 0, 0, 0, 0, 0, 0, 1
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/index.html", "HTML", 0, 0, 0, 15, 0, 0, 0, 0, 2, 17
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/package-lock.json", "JSON", 0, 3077, 0, 0, 0, 0, 0, 0, 1, 3078
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/package.json", "JSON", 0, 28, 0, 0, 0, 0, 0, 0, 1, 29
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/appStore.svg", "XML", 0, 0, 9, 0, 0, 0, 0, 0, 0, 9
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/bg.svg", "XML", 0, 0, 1, 0, 0, 0, 0, 0, 0, 1
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/blueBoxImage.svg", "XML", 0, 0, 9, 0, 0, 0, 0, 0, 1, 10
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/dowloadBadge.svg", "XML", 0, 0, 28, 0, 0, 0, 0, 0, 0, 28
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/security.svg", "XML", 0, 0, 1, 0, 0, 0, 0, 0, 0, 1
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/vite.svg", "XML", 0, 0, 1, 0, 0, 0, 0, 0, 0, 1
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/App.css", "CSS", 0, 0, 0, 0, 0, 0, 351, 73, 63, 487
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/App.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 35, 0, 0, 6, 41
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/animations.css", "CSS", 0, 0, 0, 0, 0, 0, 73, 5, 12, 90
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/BulletPoint.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 24, 0, 0, 3, 27
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/Line1.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 15, 0, 0, 3, 18
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/block.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 15, 0, 0, 3, 18
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/drop down.svg", "XML", 0, 0, 4, 0, 0, 0, 0, 0, 1, 5
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/dropDownIcon.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 30, 0, 0, 3, 33
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/line2.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 15, 0, 0, 3, 18
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/line3.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 15, 0, 0, 3, 18
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/logo.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 32, 0, 0, 3, 35
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/react.svg", "XML", 0, 0, 1, 0, 0, 0, 0, 0, 0, 1
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/savings.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 133, 0, 4, 4, 141
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/startRating.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 34, 0, 0, 3, 37
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/advert/index.js", "JavaScript", 9, 0, 0, 0, 0, 0, 0, 0, 1, 10
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/header/index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 52, 0, 1, 4, 57
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hero/hero.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 82, 0, 3, 8, 93
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/animator.js", "JavaScript", 18, 0, 0, 0, 0, 0, 0, 0, 2, 20
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/animator2.js", "JavaScript", 34, 0, 0, 0, 0, 0, 0, 0, 1, 35
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/coloredHeader.js", "JavaScript", 9, 0, 0, 0, 0, 0, 0, 3, 4, 16
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/menueAnimation.js", "JavaScript", 49, 0, 0, 0, 0, 0, 0, 1, 8, 58
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/scrollPosition.js", "JavaScript", 30, 0, 0, 0, 0, 0, 0, 2, 3, 35
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/viewPortWidth.js", "JavaScript", 18, 0, 0, 0, 0, 0, 0, 8, 3, 29
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section1/index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 32, 0, 0, 3, 35
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section2/index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 92, 0, 1, 6, 99
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section3/index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 31, 0, 0, 3, 34
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section4/index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 119, 0, 35, 13, 167
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section4/section4.css", "CSS", 0, 0, 0, 0, 0, 0, 47, 8, 15, 70
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section5/index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 121, 0, 3, 10, 134
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section5/section5.css", "CSS", 0, 0, 0, 0, 0, 0, 51, 5, 16, 72
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section6/index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 92, 0, 40, 5, 137
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section6/section6.css", "CSS", 0, 0, 0, 0, 0, 0, 50, 1, 20, 71
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section7/index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 31, 0, 0, 4, 35
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section7/section7.css", "CSS", 0, 0, 0, 0, 0, 0, 77, 9, 13, 99
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section8/index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 194, 0, 0, 8, 202
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section8/section8.css", "CSS", 0, 0, 0, 0, 0, 0, 89, 1, 12, 102
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/header.css", "CSS", 0, 0, 0, 0, 0, 0, 76, 0, 22, 98
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/index.css", "CSS", 0, 0, 0, 0, 0, 0, 1173, 60, 71, 1304
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/main.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 16, 0, 0, 1, 17
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/mobileMenue/index.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 78, 0, 0, 7, 85
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/mobileMenue/mobileMenue.css", "CSS", 0, 0, 0, 0, 0, 0, 97, 0, 15, 112
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/moreMediaQuaries.css", "CSS", 0, 0, 0, 0, 0, 0, 118, 5, 10, 133
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/reducer/DrawSvg.js", "JavaScript", 18, 0, 0, 0, 0, 0, 0, 0, 1, 19
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/reducer/index.js", "JavaScript", 12, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/reducer/logoColor.js", "JavaScript", 24, 0, 0, 0, 0, 0, 0, 0, 2, 26
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/reducer/profitAnalyser.js", "JavaScript", 23, 0, 0, 0, 0, 0, 0, 0, 4, 27
+"/home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/vite.config.js", "JavaScript", 5, 0, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 264, 3105, 55, 15, 1, 1288, 2202, 269, 416, 7615

@@ -3,8 +3,14 @@ import { useDispatch, useSelector } from "react-redux";
 import { ShowRangeValue } from "../../reducer/profitAnalyser";
 
 const Section2 = () => {
-  const { rangeValue, cowryWiseProfit, bankProfit, crytoProfit, NftProfit } =
-    useSelector((state) => state.profitAnalyser);
+  const {
+    rangeValue,
+    cowryWiseProfit,
+    bankProfit,
+    crytoProfit,
+    NftProfit,
+    TotalProfit,
+  } = useSelector((state) => state.profitAnalyser);
   const dispatch = useDispatch();
   return (
     <>
@@ -28,7 +34,7 @@ const Section2 = () => {
                 {" "}
                 ₦{" "}
               </span>{" "}
-              5,000
+              {rangeValue.toLocaleString()}
             </p>
             <div style={{ marginTop: "-4rem" }} className="flexBox2">
               <div>
@@ -66,7 +72,7 @@ const Section2 = () => {
                 {" "}
                 ₦{" "}
               </span>{" "}
-              234,600
+              {TotalProfit.toLocaleString()}
             </p>
           </div>
           <div
@@ -74,11 +80,32 @@ const Section2 = () => {
             className="center flex defaultPadding stack"
           >
             <div className="specailBox defaultPadding">
-              <p>₦{cowryWiseProfit} earned in returns on CowryWise</p>
+              <p>
+                ₦{cowryWiseProfit.toLocaleString()} earned in returns on
+                CowryWise
+              </p>
             </div>
             <p style={{ fontSize: ".9rem" }} className="smallText2">
               *In the bank you'd have earned{" "}
-              <span style={{ color: "black" }}> ₦{bankProfit}</span>
+              <span style={{ color: "black" }}>
+                {" "}
+                ₦{bankProfit.toLocaleString()}
+              </span>
+            </p>
+
+            <p style={{ fontSize: ".9rem" }} className="smallText2">
+              *In crypto you'd have lost{" "}
+              <span style={{ color: "black" }}>
+                
+                ₦{NftProfit.toLocaleString()}
+              </span>
+            </p>
+            <p style={{ fontSize: ".9rem" }} className="smallText2">
+              *if you had bought an NFT you'd have lost{" "}
+              <span style={{ color: "black" }}>
+                {" "}
+                ₦{NftProfit.toLocaleString()}
+              </span>
             </p>
             <p
               style={{ marginTop: "2rem", maxWidth: "60rem" }}

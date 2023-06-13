@@ -6,9 +6,9 @@ export default function InterSectionChecker(selector, action, revarseAction) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          dispatch(action());
+           dispatch(action());
         } else {
-          dispatch(revarseAction());
+           dispatch(revarseAction());
         }
       });
     });

@@ -1,0 +1,109 @@
+Date : 2023-06-13 08:28:58
+Directory : /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone
+Total : 59 files,  6930 codes, 269 comments, 416 blanks, all 7615 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          2 |      3,105 |          0 |          2 |      3,107 |
+| CSS            |         11 |      2,202 |        167 |        269 |      2,638 |
+| JavaScript JSX |         22 |      1,288 |         87 |        106 |      1,481 |
+| JavaScript     |         13 |        264 |         15 |         34 |        313 |
+| XML            |          9 |         55 |          0 |          2 |         57 |
+| HTML           |          1 |         15 |          0 |          2 |         17 |
+| Markdown       |          1 |          1 |          0 |          1 |          2 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                      |         59 |      6,930 |        269 |        416 |      7,615 |
+| . (Files)                                                                                              |          7 |      3,142 |          1 |          8 |      3,151 |
+| public                                                                                                 |          6 |         49 |          0 |          1 |         50 |
+| src                                                                                                    |         46 |      3,739 |        268 |        407 |      4,414 |
+| src (Files)                                                                                            |          7 |      1,842 |        143 |        185 |      2,170 |
+| src/assets                                                                                             |         11 |        318 |          4 |         29 |        351 |
+| src/components                                                                                         |         22 |      1,327 |        121 |        162 |      1,610 |
+| src/components/advert                                                                                  |          1 |          9 |          0 |          1 |         10 |
+| src/components/header                                                                                  |          1 |         52 |          1 |          4 |         57 |
+| src/components/hero                                                                                    |          1 |         82 |          3 |          8 |         93 |
+| src/components/hooks                                                                                   |          6 |        158 |         14 |         21 |        193 |
+| src/components/section1                                                                                |          1 |         32 |          0 |          3 |         35 |
+| src/components/section2                                                                                |          1 |         92 |          1 |          6 |         99 |
+| src/components/section3                                                                                |          1 |         31 |          0 |          3 |         34 |
+| src/components/section4                                                                                |          2 |        166 |         43 |         28 |        237 |
+| src/components/section5                                                                                |          2 |        172 |          8 |         26 |        206 |
+| src/components/section6                                                                                |          2 |        142 |         41 |         25 |        208 |
+| src/components/section7                                                                                |          2 |        108 |          9 |         17 |        134 |
+| src/components/section8                                                                                |          2 |        283 |          1 |         20 |        304 |
+| src/mobileMenue                                                                                        |          2 |        175 |          0 |         22 |        197 |
+| src/reducer                                                                                            |          4 |         77 |          0 |          9 |         86 |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                               | language       | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/.eslintrc.cjs                          | JavaScript     |         15 |          0 |          1 |         16 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/README.md                              | Markdown       |          1 |          0 |          1 |          2 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/home-device-section.svg                | XML            |          1 |          0 |          0 |          1 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/index.html                             | HTML           |         15 |          0 |          2 |         17 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/package-lock.json                      | JSON           |      3,077 |          0 |          1 |      3,078 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/package.json                           | JSON           |         28 |          0 |          1 |         29 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/appStore.svg                    | XML            |          9 |          0 |          0 |          9 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/bg.svg                          | XML            |          1 |          0 |          0 |          1 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/blueBoxImage.svg                | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/dowloadBadge.svg                | XML            |         28 |          0 |          0 |         28 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/security.svg                    | XML            |          1 |          0 |          0 |          1 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/public/vite.svg                        | XML            |          1 |          0 |          0 |          1 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/App.css                            | CSS            |        351 |         73 |         63 |        487 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/App.jsx                            | JavaScript JSX |         35 |          0 |          6 |         41 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/animations.css                     | CSS            |         73 |          5 |         12 |         90 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/BulletPoint.jsx             | JavaScript JSX |         24 |          0 |          3 |         27 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/Line1.jsx                   | JavaScript JSX |         15 |          0 |          3 |         18 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/block.jsx                   | JavaScript JSX |         15 |          0 |          3 |         18 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/drop down.svg               | XML            |          4 |          0 |          1 |          5 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/dropDownIcon.jsx            | JavaScript JSX |         30 |          0 |          3 |         33 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/line2.jsx                   | JavaScript JSX |         15 |          0 |          3 |         18 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/line3.jsx                   | JavaScript JSX |         15 |          0 |          3 |         18 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/logo.jsx                    | JavaScript JSX |         32 |          0 |          3 |         35 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/react.svg                   | XML            |          1 |          0 |          0 |          1 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/savings.jsx                 | JavaScript JSX |        133 |          4 |          4 |        141 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/assets/startRating.jsx             | JavaScript JSX |         34 |          0 |          3 |         37 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/advert/index.js         | JavaScript     |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/header/index.jsx        | JavaScript JSX |         52 |          1 |          4 |         57 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hero/hero.jsx           | JavaScript JSX |         82 |          3 |          8 |         93 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/animator.js       | JavaScript     |         18 |          0 |          2 |         20 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/animator2.js      | JavaScript     |         34 |          0 |          1 |         35 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/coloredHeader.js  | JavaScript     |          9 |          3 |          4 |         16 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/menueAnimation.js | JavaScript     |         49 |          1 |          8 |         58 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/scrollPosition.js | JavaScript     |         30 |          2 |          3 |         35 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/hooks/viewPortWidth.js  | JavaScript     |         18 |          8 |          3 |         29 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section1/index.jsx      | JavaScript JSX |         32 |          0 |          3 |         35 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section2/index.jsx      | JavaScript JSX |         92 |          1 |          6 |         99 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section3/index.jsx      | JavaScript JSX |         31 |          0 |          3 |         34 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section4/index.jsx      | JavaScript JSX |        119 |         35 |         13 |        167 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section4/section4.css   | CSS            |         47 |          8 |         15 |         70 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section5/index.jsx      | JavaScript JSX |        121 |          3 |         10 |        134 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section5/section5.css   | CSS            |         51 |          5 |         16 |         72 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section6/index.jsx      | JavaScript JSX |         92 |         40 |          5 |        137 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section6/section6.css   | CSS            |         50 |          1 |         20 |         71 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section7/index.jsx      | JavaScript JSX |         31 |          0 |          4 |         35 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section7/section7.css   | CSS            |         77 |          9 |         13 |         99 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section8/index.jsx      | JavaScript JSX |        194 |          0 |          8 |        202 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/components/section8/section8.css   | CSS            |         89 |          1 |         12 |        102 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/header.css                         | CSS            |         76 |          0 |         22 |         98 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/index.css                          | CSS            |      1,173 |         60 |         71 |      1,304 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/main.jsx                           | JavaScript JSX |         16 |          0 |          1 |         17 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/mobileMenue/index.jsx              | JavaScript JSX |         78 |          0 |          7 |         85 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/mobileMenue/mobileMenue.css        | CSS            |         97 |          0 |         15 |        112 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/moreMediaQuaries.css               | CSS            |        118 |          5 |         10 |        133 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/reducer/DrawSvg.js                 | JavaScript     |         18 |          0 |          1 |         19 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/reducer/index.js                   | JavaScript     |         12 |          0 |          2 |         14 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/reducer/logoColor.js               | JavaScript     |         24 |          0 |          2 |         26 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/src/reducer/profitAnalyser.js          | JavaScript     |         23 |          0 |          4 |         27 |
+| /home/raphaelohai5/playplay projects/pundFullish/cowryWiseClone/vite.config.js                         | JavaScript     |          5 |          1 |          2 |          8 |
+| Total                                                                                                  |                |      6,930 |        269 |        416 |      7,615 |
++--------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

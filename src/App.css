@@ -298,15 +298,6 @@
 .zLower{
   z-index: -2;
 }
-
-.imageBox{
-  background-color: #fdf5ec;
-  margin-left: -3rem;
-  max-width: 25rem;
-}
-
-
-
 .transition2{
   transition: all 1.5s;
 }
@@ -460,8 +451,6 @@ div::-webkit-scrollbar {
 }
 
 .track {
-  /* position: absolute; */
-  /* white-space: nowrap; */
   will-change: transform;
   animation: marquee 3s linear infinite;
 }
