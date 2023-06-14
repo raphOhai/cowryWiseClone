@@ -66,7 +66,7 @@ const Section2 = () => {
             <p
               style={{ marginTop: "-4rem" }}
               id="profitAmount"
-              className="smallMainText"
+              className="smallMainText transition"
             >
               <span id="NiaraSymbol" className="center">
                 {" "}

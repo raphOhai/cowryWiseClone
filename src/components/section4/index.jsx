@@ -9,7 +9,7 @@ const Section4 = () => {
   // animate2("fastSlide")
   MultipleAnimator()
   return (
-    <div className="sectionDiv">
+    <div className="sectionDiv maxWidth">
       <div>
         <div className="grid4 defaultPadding">
           <div className="">

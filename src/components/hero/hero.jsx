@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     // <div>Hero</div>
     <>
-      <div className="stack">
+      <div className="stack maxWidth ">
         <div
           style={{ maxWidth: "45rem" }}
           className="stack HideDesktop widthRestric defaultPadding"

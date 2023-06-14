@@ -18,7 +18,7 @@ function App() {
   HeaderStyle();
   return (
     <>
-      <div className="maxWidth stack overFlowHidden">
+      <div className="stack overFlowHidden">
         <MobileMenue />
         <Header />
 

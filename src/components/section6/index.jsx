@@ -5,7 +5,7 @@ import StartRating from "../../assets/startRating";
 const Section6 = () => {
   return (
     <div className="defaultPadding">
-      <div className="section6Grid">
+      <div className="section6Grid maxWidth">
         {/* <div className="flex, center">
           <div className="section6Cards ">
             <div className="stack">

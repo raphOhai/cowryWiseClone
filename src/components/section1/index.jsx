@@ -8,7 +8,7 @@ const Section1 = () => {
   MultipleAnimator();
   InterSectionChecker("trigger",  IncreaseHeight, DecreaseHeight );
   return (
-    <div style={{}} className="grid">
+    <div style={{}} className="grid maxWidth ">
       <div className="stack sideSlide1 defaultPadding">
         <h1 className="mainText2">
           Get a <em className="littleStyle SlideUp">little </em> richer each day

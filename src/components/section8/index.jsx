@@ -2,7 +2,7 @@ import React from "react";
 import "./section8.css";
 const Section8 = () => {
   return (
-    <div className="stack defaultPadding">
+    <div className="stack defaultPadding maxWidth">
       <div className="section8Grid ">
         <div className="footerStack">
           <p id="footerHeading" className="mainText">

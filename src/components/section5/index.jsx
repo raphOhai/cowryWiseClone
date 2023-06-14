@@ -10,7 +10,7 @@ const Section5 = () => {
 
       </div> */}
 
-      <div className="defaultPadding shiftButtom">
+      <div className="defaultPadding shiftButtom maxWidth">
         <div className="stack">
           <div className="alignStart shiftTop">
             <div className="stack">
